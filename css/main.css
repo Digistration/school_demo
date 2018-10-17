@@ -748,7 +748,7 @@ header {
     padding: 0 2.5vw; }
   #services .background {
     height: 85vw;
-    background-image: url("/img/services_background.jpg");
+    background-image: url("../img/services_background.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -813,7 +813,7 @@ header {
           height: 17.5vw;
           margin: 0;
           padding: 0;
-          background-image: url("/img/bubble.png");
+          background-image: url("../img/bubble.png");
           background-repeat: no-repeat;
           background-size: contain;
           overflow-wrap: break-word; }
@@ -834,11 +834,11 @@ header {
           font-weight: bold;
           color: orange; }
         #news .container .slider .slide .p1 {
-          background-image: url("/img/profile_1.jpg"); }
+          background-image: url("../img/profile_1.jpg"); }
         #news .container .slider .slide .p2 {
-          background-image: url("/img/profile_2.jpg"); }
+          background-image: url("../img/profile_2.jpg"); }
         #news .container .slider .slide .p3 {
-          background-image: url("/img/profile_3.jpg"); }
+          background-image: url("../img/profile_3.jpg"); }
       #news .container .slider .fa {
         color: white;
         font-size: 3vw; }
