@@ -1,0 +1,128 @@
+.founder {
+  position: absolute;
+  top: 0;
+  left: 11.5vw;
+  background-color: #80c3d2; }
+  .founder h2 {
+    display: block; }
+  .founder #founder_button_open {
+    display: none; }
+  .founder #founder_button_close {
+    display: none; }
+  .founder p {
+    display: none;
+    opacity: 0; }
+
+.founder_hover h2 {
+  display: none; }
+
+.founder_hover #founder_button_open {
+  display: block; }
+
+.founder_disabled h2 {
+  display: none; }
+
+.founder_disabled #founder_button_open {
+  display: none; }
+
+.founder_disabled #founder_button_close {
+  display: block; }
+
+.founder_disabled p {
+  display: block; }
+
+.philosophy {
+  position: absolute;
+  top: 0;
+  left: 31vw;
+  background-color: #ff8454; }
+  .philosophy h2 {
+    display: inline-block; }
+  .philosophy #philosophy_button_open {
+    display: none; }
+  .philosophy #philosophy_button_close {
+    display: none; }
+  .philosophy p {
+    display: none;
+    opacity: 0; }
+
+.philosophy_hover h2 {
+  display: none;
+  margin-left: -10vw; }
+
+.philosophy_hover #philosophy_button_open {
+  display: block; }
+
+.philosophy_disabled {
+  text-align: left;
+  left: 11.5vw; }
+  .philosophy_disabled h2 {
+    display: none; }
+  .philosophy_disabled #philosophy_button_open {
+    display: none; }
+  .philosophy_disabled #philosophy_button_close {
+    display: block; }
+
+.vision {
+  background-color: #f0cd3a;
+  position: absolute;
+  top: 0;
+  left: 50.5vw; }
+  .vision h2 {
+    display: block; }
+  .vision #vision_button_open {
+    display: none; }
+  .vision #vision_button_close {
+    display: none; }
+  .vision p {
+    display: none;
+    opacity: 0; }
+
+.vision_hover h2 {
+  display: none; }
+
+.vision_hover #vision_button_open {
+  display: block; }
+
+.vision_disabled {
+  text-align: left;
+  left: 11.5vw; }
+  .vision_disabled h2 {
+    display: none; }
+  .vision_disabled #vision_button_open {
+    display: none; }
+  .vision_disabled #vision_button_close {
+    display: block; }
+  .vision_disabled p {
+    display: block; }
+
+.testimonies {
+  background-color: #88c87b;
+  position: absolute;
+  top: 0;
+  left: 70vw; }
+  .testimonies h2 {
+    display: block; }
+  .testimonies #testimonies_button_open {
+    display: none; }
+  .testimonies #testimonies_button_close {
+    display: none; }
+  .testimonies p {
+    display: none;
+    opacity: 0; }
+
+.testimonies_hover h2 {
+  display: none; }
+
+.testimonies_hover #testimonies_button_open {
+  display: block; }
+
+.testimonies_disabled {
+  text-align: left;
+  left: 1.5vw; }
+  .testimonies_disabled h2 {
+    display: none; }
+  .testimonies_disabled #testimonies_button_open {
+    display: none; }
+  .testimonies_disabled #testimonies_button_close {
+    display: block; }

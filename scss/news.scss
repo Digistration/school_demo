@@ -1,0 +1,85 @@
+$color-blue: #80c3d2;
+$color-orange: #ff8454;
+$color-green: #88c87b;
+$color-yellow: #f0cd3a;
+$color-black: #454a4c;
+$color-gray: #f2f3f4;
+
+#news{
+  height: 35vw;
+  text-align: center;
+  margin: 0;
+  background-color: #ffff;
+  position: relative;
+
+  h1{
+    height: 75px;
+    margin: 0;
+    color: $color-black;
+    font-family: 'Oswald';
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+
+  .container{
+    background-color: $color-green;
+    height: 35vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .slider{
+      width:1200px;
+      margin:20px auto;
+      text-align: center;
+      padding:20px;
+
+      .slide{
+        padding:15px;
+
+        .bubble{
+          height: 17.5vw;
+          margin: 0;
+          padding: 0;
+          background-image: url("/img/bubble.png");
+          background-repeat: no-repeat;
+          background-size: contain;
+          overflow-wrap: break-word;
+        }
+        .profile{
+          height: 5vw;
+          width: 5vw;
+          border-radius: 50%;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        p{
+          margin: 0;
+          padding: 4vw 3vw 4vw 3vw;
+          line-height: 1.8vw;
+          font-family: 'Roboto';
+          color: black;
+        }
+        span{
+          font-size: 2vw;
+          font-weight: bold;
+          color: orange;
+        }
+        .p1{
+          background-image: url("/img/profile_1.jpg");
+        }
+        .p2{
+          background-image: url("/img/profile_2.jpg");
+        }
+        .p3{
+          background-image: url("/img/profile_3.jpg");
+        }
+      }
+      .fa{
+        color: white;
+        font-size: 3vw;
+      }
+    }
+  }
+}

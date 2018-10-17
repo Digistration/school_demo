@@ -1,0 +1,61 @@
+$color-blue: #80c3d2;
+$color-orange: #ff8454;
+$color-green: #88c87b;
+$color-yellow: #f0cd3a;
+
+@import 'grid_elements';
+
+.aboutus{
+  height: 350px;
+  margin: 0;
+  padding: 5px 0 70px 0;
+  background-color: #f2f3f4;
+  text-align: center;
+
+  .aboutus_heading{
+    height: 75px;
+    color: #454a4c;
+    font-family: 'Oswald';
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0;
+    span{
+      font-family: 'Kalam';
+      color: $color-blue;
+      text-transform: none;
+    }
+  }
+
+  .aboutus_grid{
+    position: relative;
+    div{
+      height: 17vw;
+      width: 17vw;
+      margin: 1vw;
+      h2{
+        margin: 0;
+        padding: 0;
+        margin: 6.5vw 0;
+        color: white;
+        font-family: 'Oswald';
+        font-size: 2.5vw;
+        text-transform: uppercase;
+      }
+      i{
+        position: absolute;
+        left: 11vw;
+        top: 7vw;
+        display: none;
+        font-size: 3.5vw;
+        color: #ffff;
+      }
+      p{
+        color: #ffff;
+        font-family: 'Roboto';
+        font-size: 1.25vw;
+        width: 51vw;
+        margin: 6vw 0 0 19.5vw;
+      }
+    }
+  }
+}

@@ -1,0 +1,173 @@
+$color-blue: #80c3d2;
+$color-orange: #ff8454;
+$color-green: #88c87b;
+$color-yellow: #f0cd3a;
+
+.founder{
+  position: absolute;
+  top: 0;
+  left: 11.5vw;
+  background-color: $color-blue;
+  h2{
+    display: block;
+  }
+  #founder_button_open{
+    display: none;
+  }
+  #founder_button_close{
+    display: none;
+  }
+  p{
+    display: none;
+    opacity: 0;
+  }
+}
+.founder_hover{
+  h2{
+    display: none;
+  }
+  #founder_button_open{
+    display: block;
+  }
+}
+.founder_disabled{
+  h2{
+    display: none;
+  }
+  #founder_button_open{
+    display: none;
+  }
+  #founder_button_close{
+    display: block;
+  }
+  p{
+    display: block;
+  }
+}
+
+.philosophy{
+  position: absolute;
+  top: 0;
+  left: 31vw;
+  background-color: $color-orange;
+  h2{
+    display: inline-block;
+  }
+  #philosophy_button_open{
+    display: none;
+  }
+  #philosophy_button_close{
+    display: none;
+  }
+  p{
+    display: none;
+    opacity: 0;
+  }
+}
+.philosophy_hover{
+  h2{
+    display: none;
+    margin-left: -10vw;
+  }
+  #philosophy_button_open{
+    display: block;
+  }
+}
+.philosophy_disabled{
+  text-align: left;
+  left: 11.5vw;
+  h2{
+    display: none;
+  }
+  #philosophy_button_open{
+    display: none;
+  }
+  #philosophy_button_close{
+    display: block;
+  }
+}
+
+.vision{
+  background-color: $color-yellow;
+  position: absolute;
+  top: 0;
+  left: 50.5vw;
+  h2{
+    display: block;
+  }
+  #vision_button_open{
+    display: none;
+  }
+  #vision_button_close{
+    display: none;
+  }
+  p{
+    display: none;
+    opacity: 0;
+  }
+}
+.vision_hover{
+  h2{
+    display: none;
+  }
+  #vision_button_open{
+    display: block;
+  }
+}
+.vision_disabled{
+  text-align: left;
+  left: 11.5vw;
+  h2{
+    display: none;
+  }
+  #vision_button_open{
+    display: none;
+  }
+  #vision_button_close{
+    display: block;
+  }
+  p{
+    display: block;
+  }
+}
+
+.testimonies{
+  background-color: $color-green;
+  position: absolute;
+  top: 0;
+  left: 70vw;
+  h2{
+    display: block;
+  }
+  #testimonies_button_open{
+    display: none;
+  }
+  #testimonies_button_close{
+    display: none;
+  }
+  p{
+    display: none;
+    opacity: 0;
+  }
+}
+.testimonies_hover{
+  h2{
+    display: none;
+  }
+  #testimonies_button_open{
+    display: block;
+  }
+}
+.testimonies_disabled{
+  text-align: left;
+  left: 1.5vw;
+  h2{
+    display: none;
+  }
+  #testimonies_button_open{
+    display: none;
+  }
+  #testimonies_button_close{
+    display: block;
+  }
+}

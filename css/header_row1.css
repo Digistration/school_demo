@@ -1,0 +1,47 @@
+.header_row1 {
+  display: flex;
+  flex-direction: row; }
+  .header_row1 .row1_column1 {
+    width: 50vw;
+    margin-left: 13vw; }
+    .header_row1 .row1_column1 img {
+      height: 125px;
+      padding-top: 10px; }
+
+.row1_column2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 50vw;
+  margin-right: 13vw; }
+  .row1_column2 .registerlogin {
+    padding-bottom: 20px; }
+    .row1_column2 .registerlogin button {
+      margin: 0;
+      padding: 10px;
+      background-color: white;
+      border: none;
+      color: #ff8454;
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-weight: 500;
+      outline: none; }
+  .row1_column2 .search {
+    background-color: #f2f3f4; }
+    .row1_column2 .search input {
+      padding: 10px 7.5vw 10px 20px;
+      background-color: #f2f3f4;
+      border: none;
+      color: gray;
+      font-family: 'Oswald', sans-serif;
+      font-size: 17.5px;
+      font-weight: 300;
+      outline: none; }
+    .row1_column2 .search button {
+      padding: 14px;
+      background-color: #f2f3f4;
+      border: none; }
+      .row1_column2 .search button .fa {
+        font-size: 20px;
+        color: #454a4c; }

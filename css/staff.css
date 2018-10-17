@@ -1,0 +1,366 @@
+#staff {
+  height: 100vw;
+  text-align: center;
+  position: relative; }
+  #staff .staff_heading {
+    height: 75px;
+    color: #454a4c;
+    font-family: 'Oswald';
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0; }
+  #staff .staff_header {
+    position: relative;
+    margin-top: 1vw; }
+    #staff .staff_header .staff_header_orange {
+      margin: 0 auto;
+      height: 30vw;
+      width: 30vw;
+      background-color: #ff8454;
+      transform: rotate(80deg); }
+    #staff .staff_header #staff_header {
+      position: absolute;
+      top: 4vw;
+      left: 25vw;
+      height: 25vw;
+      width: 50vw; }
+  #staff .profiles {
+    position: relative; }
+    #staff .profiles img {
+      position: absolute;
+      height: 10vw;
+      width: 7.5vw; }
+    #staff .profiles p {
+      opacity: 0;
+      font-family: 'Roboto';
+      font-size: 1.25vw;
+      width: 40vw; }
+    #staff .profiles .background_yellow {
+      position: absolute;
+      left: 17.5vw;
+      top: 4vw;
+      transition-duration: 0.5s;
+      transform: rotate(-40deg);
+      height: 15vw;
+      width: 15vw;
+      background: #f0cd3a; }
+    #staff .profiles .attention1 {
+      animation-name: attention;
+      animation-duration: 4s;
+      animation-iteration-count: infinite; }
+
+@keyframes attention {
+  0% {
+    width: 15vw;
+    height: 15vw; }
+  25% {
+    width: 13.5vw;
+    height: 13.5vw; }
+  50% {
+    width: 15vw;
+    height: 15vw; }
+  52% {
+    width: 15vw;
+    height: 15vw; }
+  54% {
+    width: 15vw;
+    height: 15vw; }
+  56% {
+    width: 15vw;
+    height: 15vw; }
+  58% {
+    width: 15vw;
+    height: 15vw; }
+  60% {
+    width: 15vw;
+    height: 15vw; }
+  62% {
+    width: 15vw;
+    height: 15vw; }
+  64% {
+    width: 15vw;
+    height: 15vw; }
+  66% {
+    width: 15vw;
+    height: 15vw; }
+  68% {
+    width: 15vw;
+    height: 15vw; }
+  70% {
+    width: 15vw;
+    height: 15vw; }
+  72% {
+    width: 15vw;
+    height: 15vw; }
+  74% {
+    width: 15vw;
+    height: 15vw; }
+  76% {
+    width: 15vw;
+    height: 15vw; }
+  78% {
+    width: 15vw;
+    height: 15vw; }
+  80% {
+    width: 15vw;
+    height: 15vw; }
+  82% {
+    width: 15vw;
+    height: 15vw; }
+  84% {
+    width: 15vw;
+    height: 15vw; }
+  86% {
+    width: 15vw;
+    height: 15vw; }
+  88% {
+    width: 15vw;
+    height: 15vw; }
+  90% {
+    width: 15vw;
+    height: 15vw; }
+  92% {
+    width: 15vw;
+    height: 15vw; }
+  94% {
+    width: 15vw;
+    height: 15vw; }
+  96% {
+    width: 15vw;
+    height: 15vw; }
+  98% {
+    width: 15vw;
+    height: 15vw; }
+  100% {
+    width: 15vw;
+    height: 15vw; } }
+    #staff .profiles .profile1 {
+      z-index: -1;
+      display: none;
+      position: absolute;
+      top: 6.5vw;
+      height: 10vw;
+      width: 50vw; }
+      #staff .profiles .profile1 p {
+        color: #f0cd3a;
+        margin: 2vw 0 0 40vw; }
+    #staff .profiles .background_green {
+      position: absolute;
+      left: 10vw;
+      top: 22.5vw;
+      transition-duration: 0.5s;
+      transform: rotate(10deg);
+      height: 15vw;
+      width: 15vw;
+      background: #88c87b; }
+    #staff .profiles .attention2 {
+      animation-name: attention;
+      animation-duration: 4s;
+      animation-delay: 0.5s;
+      animation-iteration-count: infinite; }
+
+@keyframes attention {
+  0% {
+    width: 15vw;
+    height: 15vw; }
+  25% {
+    width: 13.5vw;
+    height: 13.5vw; }
+  50% {
+    width: 15vw;
+    height: 15vw; }
+  52% {
+    width: 15vw;
+    height: 15vw; }
+  54% {
+    width: 15vw;
+    height: 15vw; }
+  56% {
+    width: 15vw;
+    height: 15vw; }
+  58% {
+    width: 15vw;
+    height: 15vw; }
+  60% {
+    width: 15vw;
+    height: 15vw; }
+  62% {
+    width: 15vw;
+    height: 15vw; }
+  64% {
+    width: 15vw;
+    height: 15vw; }
+  66% {
+    width: 15vw;
+    height: 15vw; }
+  68% {
+    width: 15vw;
+    height: 15vw; }
+  70% {
+    width: 15vw;
+    height: 15vw; }
+  72% {
+    width: 15vw;
+    height: 15vw; }
+  74% {
+    width: 15vw;
+    height: 15vw; }
+  76% {
+    width: 15vw;
+    height: 15vw; }
+  78% {
+    width: 15vw;
+    height: 15vw; }
+  80% {
+    width: 15vw;
+    height: 15vw; }
+  82% {
+    width: 15vw;
+    height: 15vw; }
+  84% {
+    width: 15vw;
+    height: 15vw; }
+  86% {
+    width: 15vw;
+    height: 15vw; }
+  88% {
+    width: 15vw;
+    height: 15vw; }
+  90% {
+    width: 15vw;
+    height: 15vw; }
+  92% {
+    width: 15vw;
+    height: 15vw; }
+  94% {
+    width: 15vw;
+    height: 15vw; }
+  96% {
+    width: 15vw;
+    height: 15vw; }
+  98% {
+    width: 15vw;
+    height: 15vw; }
+  100% {
+    width: 15vw;
+    height: 15vw; } }
+    #staff .profiles .profile2 {
+      z-index: -1;
+      display: none;
+      position: absolute;
+      top: 25vw;
+      height: 10vw;
+      width: 50vw; }
+      #staff .profiles .profile2 p {
+        color: #88c87b;
+        margin: 2vw 0 0 32.8vw; }
+    #staff .profiles .background_blue {
+      position: absolute;
+      left: 15vw;
+      top: 41.5vw;
+      transition-duration: 0.5s;
+      transform: rotate(-30deg);
+      height: 15vw;
+      width: 15vw;
+      background: #80c3d2; }
+    #staff .profiles .attention3 {
+      animation-name: attention;
+      animation-duration: 4s;
+      animation-delay: 1s;
+      animation-iteration-count: infinite; }
+
+@keyframes attention {
+  0% {
+    width: 15vw;
+    height: 15vw; }
+  25% {
+    width: 13.5vw;
+    height: 13.5vw; }
+  50% {
+    width: 15vw;
+    height: 15vw; }
+  52% {
+    width: 15vw;
+    height: 15vw; }
+  54% {
+    width: 15vw;
+    height: 15vw; }
+  56% {
+    width: 15vw;
+    height: 15vw; }
+  58% {
+    width: 15vw;
+    height: 15vw; }
+  60% {
+    width: 15vw;
+    height: 15vw; }
+  62% {
+    width: 15vw;
+    height: 15vw; }
+  64% {
+    width: 15vw;
+    height: 15vw; }
+  66% {
+    width: 15vw;
+    height: 15vw; }
+  68% {
+    width: 15vw;
+    height: 15vw; }
+  70% {
+    width: 15vw;
+    height: 15vw; }
+  72% {
+    width: 15vw;
+    height: 15vw; }
+  74% {
+    width: 15vw;
+    height: 15vw; }
+  76% {
+    width: 15vw;
+    height: 15vw; }
+  78% {
+    width: 15vw;
+    height: 15vw; }
+  80% {
+    width: 15vw;
+    height: 15vw; }
+  82% {
+    width: 15vw;
+    height: 15vw; }
+  84% {
+    width: 15vw;
+    height: 15vw; }
+  86% {
+    width: 15vw;
+    height: 15vw; }
+  88% {
+    width: 15vw;
+    height: 15vw; }
+  90% {
+    width: 15vw;
+    height: 15vw; }
+  92% {
+    width: 15vw;
+    height: 15vw; }
+  94% {
+    width: 15vw;
+    height: 15vw; }
+  96% {
+    width: 15vw;
+    height: 15vw; }
+  98% {
+    width: 15vw;
+    height: 15vw; }
+  100% {
+    width: 15vw;
+    height: 15vw; } }
+    #staff .profiles .profile3 {
+      z-index: -1;
+      display: none;
+      position: absolute;
+      top: 44vw;
+      height: 12.5vw;
+      width: 50vw; }
+      #staff .profiles .profile3 p {
+        color: #80c3d2;
+        margin: 2vw 0 0 38.5vw; }

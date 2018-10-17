@@ -1,0 +1,60 @@
+#news {
+  height: 35vw;
+  text-align: center;
+  margin: 0;
+  background-color: #ffff;
+  position: relative; }
+  #news h1 {
+    height: 75px;
+    margin: 0;
+    color: #454a4c;
+    font-family: 'Oswald';
+    font-size: 50px;
+    text-transform: uppercase; }
+  #news .container {
+    background-color: #88c87b;
+    height: 35vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    #news .container .slider {
+      width: 1200px;
+      margin: 20px auto;
+      text-align: center;
+      padding: 20px; }
+      #news .container .slider .slide {
+        padding: 15px; }
+        #news .container .slider .slide .bubble {
+          height: 17.5vw;
+          margin: 0;
+          padding: 0;
+          background-image: url("/img/bubble.png");
+          background-repeat: no-repeat;
+          background-size: contain;
+          overflow-wrap: break-word; }
+        #news .container .slider .slide .profile {
+          height: 5vw;
+          width: 5vw;
+          border-radius: 50%;
+          background-repeat: no-repeat;
+          background-size: cover; }
+        #news .container .slider .slide p {
+          margin: 0;
+          padding: 4vw 3vw 4vw 3vw;
+          line-height: 1.8vw;
+          font-family: 'Roboto';
+          color: black; }
+        #news .container .slider .slide span {
+          font-size: 2vw;
+          font-weight: bold;
+          color: orange; }
+        #news .container .slider .slide .p1 {
+          background-image: url("/img/profile_1.jpg"); }
+        #news .container .slider .slide .p2 {
+          background-image: url("/img/profile_2.jpg"); }
+        #news .container .slider .slide .p3 {
+          background-image: url("/img/profile_3.jpg"); }
+      #news .container .slider .fa {
+        color: white;
+        font-size: 3vw; }
