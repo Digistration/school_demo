@@ -1,0 +1,88 @@
+$color-blue: #80c3d2;
+$color-orange: #ff8454;
+$color-green: #88c87b;
+$color-yellow: #f0cd3a;
+$color-black: #454a4c;
+$color-gray: #f2f3f4;
+
+#gallery{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+  h1{
+    margin: 0 auto;
+    padding: 0;
+    color: $color-black;
+    font-family: 'Oswald';
+    font-size: 4vw;
+    text-transform: uppercase;
+  }
+
+  .slider_gallery{
+    height: 55vw;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+
+    .slider_outer{
+      height: 55vw;
+      width: 100%;
+      position: relative;
+      overflow: auto;
+
+      .slider_inner{
+        height: 55vw;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+
+        img{
+          display: none;
+          height: 100%;
+          width: 100%;
+          overflow: hidden;
+        }
+
+        .active{
+          display: inline-block;
+        }
+      }
+      i{
+        position: absolute;
+        font-size: 3.5vw;
+        color: #fff;
+        z-index: 100;
+        cursor: pointer;
+      }
+      #button_previous{
+        left: 7.5vw;
+        top: 22.5vw;
+      }
+      #button_next{
+        right: 7.5vw;
+        top: 22.5vw;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px){
+  #gallery{
+    .slider_gallery{
+      .slider_outer{
+        i{
+          font-size: 10vw;
+        }
+        #button_previous{
+          left: 8.5vw;
+          top: 20vw;
+        }
+        #button_next{
+          right: 8.5vw;
+          top: 20vw;
+        }
+      }
+    }
+  }
+}

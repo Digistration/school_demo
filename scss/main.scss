@@ -1,3 +1,5 @@
+@import 'sticky_nav';
+
 @import 'header';
 
 @import 'hero';
@@ -11,6 +13,10 @@
 @import 'news';
 
 @import 'blog';
+
+@import 'gallery';
+
+@import 'contact';
 
 body{
   margin: 0;

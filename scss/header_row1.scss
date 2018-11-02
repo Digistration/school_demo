@@ -1,7 +1,6 @@
-$color-blue: #80c3d2;
 $color-orange: #ff8454;
-$color-green: #88c87b;
-$color-yellow: #f0cd3a;
+$color-black: #454a4c;
+$color-gray: #f2f3f4;
 
 .header_row1{
   display: flex;
@@ -12,8 +11,11 @@ $color-yellow: #f0cd3a;
     margin-left: 13vw;
 
     img{
-      height: 125px;
-      padding-top: 10px;
+      height: 10vw;
+      min-height: 50px;
+      width: 10vw;
+      min-width: 50px;
+      padding: 0.5vw 0 0 0;
     }
   }
 }
@@ -26,42 +28,79 @@ $color-yellow: #f0cd3a;
   margin-right: 13vw;
 
   .registerlogin{
-    padding-bottom: 20px;
+    padding-bottom: 1.25vw;
     button{
       margin: 0;
-      padding: 10px;
-      background-color: white;
+      padding: 0.5vw;
+      background-color: #fff;
       border: none;
       color: $color-orange;
       font-family: 'Oswald', sans-serif;
       text-transform: uppercase;
-      font-size: 15px;
+      font-size: 1.15vw;
       font-weight: 500;
       outline: none;
     }
   }
 
   .search{
-    background-color: #f2f3f4;
+    margin: 0 0 2vw 0;
+    background-color: $color-gray;
 
     input{
-      padding: 10px 7.5vw 10px 20px;
-      background-color: #f2f3f4;
+      margin: 0;
+      padding: 0.5vw 7.5vw 0.5vw 1vw;
+      background-color: $color-gray;
       border: none;
       color: gray;
       font-family: 'Oswald', sans-serif;
-      font-size: 17.5px;
+      font-size: 1.5vw;
       font-weight: 300;
       outline: none;
     }
 
     button{
-      padding:  14px;
-      background-color: #f2f3f4;
+      padding:  0.75vw;
+      background-color: $color-gray;
       border: none;
       .fa{
-        font-size: 20px;
-        color: #454a4c;
+        font-size: 1.5vw;
+        color: $color-black;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .header_row1{
+    .row1_column1{
+      width: 30vw;
+      margin: 0 0 0 2vw;
+
+      img{
+        height: 20vw;
+        width: 20vw;
+      }
+    }
+  }
+  .row1_column2{
+    width: 70vw;
+    margin: 0 2vw 0 0;
+    .registerlogin{
+      button{
+        font-size: 5vw;
+      }
+    }
+    .search{
+      margin: 0 0 2vw 0;
+      background-color: $color-gray;
+      input{
+        font-size: 5vw;
+      }
+      button{
+        .fa{
+          font-size: 5vw;
+        }
       }
     }
   }

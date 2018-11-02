@@ -1,0 +1,21 @@
+Wyndham Project Notes
+
+Media queries: (width 500px)
+- Header:
+  1. Remove hover effects
+- About:
+  1. Remove side margins
+  2. Rearrange elements
+  3. Change hover animation
+- Staff:
+  1. Remove side margins
+  2. Change hover animations
+- Services:
+  1. Remove side margins
+  2. Rearrange elements
+- Blog:
+  1. Remove side margins
+  2. Rearrange layout
+- Gallery:
+  1. increase arrow size
+- Contacts:

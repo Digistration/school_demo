@@ -127,47 +127,105 @@
   .testimonies_disabled #testimonies_button_close {
     display: block; }
 
-.aboutus {
-  height: 350px;
+@media only screen and (max-width: 500px) {
+  #about .about_grid .founder {
+    top: 0;
+    left: 15vw; }
+    #about .about_grid .founder #founder_button_open {
+      display: block; }
+  #about .about_grid .founder_disabled #founder_button_open {
+    display: none; }
+  #about .about_grid .founder_disabled #founder_button_close {
+    display: none; }
+  #about .about_grid .philosophy {
+    top: 35vw;
+    left: 15vw; }
+    #about .about_grid .philosophy #philosophy_button_open {
+      display: block; }
+  #about .about_grid .philosophy_disabled #philosophy_button_open {
+    display: none; }
+  #about .about_grid .philosophy_disabled #philosophy_button_close {
+    display: none; }
+  #about .about_grid .vision {
+    top: 70vw;
+    left: 15vw; }
+    #about .about_grid .vision #vision_button_open {
+      display: block; }
+  #about .about_grid .vision_disabled #vision_button_open {
+    display: none; }
+  #about .about_grid .vision_disabled #vision_button_close {
+    display: none; }
+  #about .about_grid .testimonies {
+    top: 105vw;
+    left: 15vw; }
+    #about .about_grid .testimonies #testimonies_button_open {
+      display: block; }
+  #about .about_grid .testimonies_disabled #testimonies_button_open {
+    display: none; }
+  #about .about_grid .testimonies_disabled #testimonies_button_close {
+    display: none; } }
+
+#about {
+  height: 27.5vw;
   margin: 0;
-  padding: 5px 0 70px 0;
+  padding: 0 0 1.5vw 0;
   background-color: #f2f3f4;
   text-align: center; }
-  .aboutus .aboutus_heading {
-    height: 75px;
+  #about h1 {
+    margin: 0 auto;
+    padding: 0;
     color: #454a4c;
     font-family: 'Oswald';
-    font-size: 50px;
-    text-transform: uppercase;
-    margin: 0; }
-    .aboutus .aboutus_heading span {
-      font-family: 'Kalam';
-      color: #80c3d2;
-      text-transform: none; }
-  .aboutus .aboutus_grid {
+    font-size: 4vw;
+    text-transform: uppercase; }
+  #about .about_grid {
+    margin: 0 auto;
+    padding: 0;
     position: relative; }
-    .aboutus .aboutus_grid div {
+    #about .about_grid div {
       height: 17vw;
       width: 17vw;
-      margin: 1vw; }
-      .aboutus .aboutus_grid div h2 {
+      margin: 0.25vw 1vw; }
+      #about .about_grid div h2 {
         margin: 0;
         padding: 0;
-        margin: 6.5vw 0;
+        margin: 6.25vw 0;
         color: white;
         font-family: 'Oswald';
-        font-size: 2.5vw;
+        font-size: 3vw;
         text-transform: uppercase; }
-      .aboutus .aboutus_grid div i {
+      #about .about_grid div i {
         position: absolute;
         left: 11vw;
         top: 7vw;
-        display: none;
         font-size: 3.5vw;
-        color: #ffff; }
-      .aboutus .aboutus_grid div p {
+        color: #ffff;
+        cursor: pointer; }
+      #about .about_grid div p {
         color: #ffff;
         font-family: 'Roboto';
-        font-size: 1.25vw;
+        font-size: 2vw;
         width: 51vw;
-        margin: 6vw 0 0 19.5vw; }
+        margin: 3vw 0 0 19.5vw;
+        text-align: left; }
+
+@media only screen and (max-width: 500px) {
+  #about {
+    height: 146vw; }
+    #about .about_grid {
+      display: flex;
+      flex-direction: column; }
+      #about .about_grid div {
+        height: 30vw;
+        width: 70vw; }
+        #about .about_grid div h2 {
+          font-size: 7.5vw; }
+        #about .about_grid div i {
+          left: 32vw;
+          top: 18vw;
+          font-size: 7.5vw; }
+        #about .about_grid div p {
+          font-size: 3vw;
+          width: 60vw;
+          margin: 3vw auto;
+          text-align: center; } }

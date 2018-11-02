@@ -6,37 +6,38 @@ $color-black: #454a4c;
 $color-gray: #f2f3f4;
 
 #news{
-  height: 35vw;
   text-align: center;
   margin: 0;
+  padding: 0;
   background-color: #ffff;
   position: relative;
 
   h1{
-    height: 75px;
-    margin: 0;
+    margin: 0 auto;
+    padding: 0;
     color: $color-black;
     font-family: 'Oswald';
-    font-size: 50px;
+    font-size: 4vw;
     text-transform: uppercase;
   }
 
   .container{
-    background-color: $color-green;
-    height: 35vw;
+    margin: 0;
+    padding: 0;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: $color-green;
 
     .slider{
-      width:1200px;
-      margin:20px auto;
+      width: 80vw;
+      margin: 1vw auto;
       text-align: center;
-      padding:20px;
+      padding: 1vw;
 
       .slide{
-        padding:15px;
+        padding: 2vw;
 
         .bubble{
           height: 17.5vw;
@@ -46,25 +47,29 @@ $color-gray: #f2f3f4;
           background-repeat: no-repeat;
           background-size: contain;
           overflow-wrap: break-word;
+          display: flex;
+          justify-content: center;
+          p{
+            margin: auto;
+            padding: 0 1.25vw 1.25vw 1.25vw;
+            line-height: 1.8vw;
+            font-family: 'Roboto';
+            font-size: 1.75vw;
+            color: $color-black;
+          }
+          span{
+            font-size: 2vw;
+            font-weight: bold;
+            color: orange;
+          }
         }
+
         .profile{
           height: 5vw;
           width: 5vw;
           border-radius: 50%;
           background-repeat: no-repeat;
           background-size: cover;
-        }
-        p{
-          margin: 0;
-          padding: 4vw 3vw 4vw 3vw;
-          line-height: 1.8vw;
-          font-family: 'Roboto';
-          color: black;
-        }
-        span{
-          font-size: 2vw;
-          font-weight: bold;
-          color: orange;
         }
         .p1{
           background-image: url("../img/profile_1.jpg");
@@ -76,10 +81,80 @@ $color-gray: #f2f3f4;
           background-image: url("../img/profile_3.jpg");
         }
       }
+
       .fa{
         color: white;
         font-size: 3vw;
       }
     }
+
+    i{
+      position: absolute;
+      cursor: pointer;
+    }
+    #slide_back{
+      left: -2.15vw;
+      top: 12.5vw;
+    }
+    #slide_forward{
+      right: -2.15vw;
+      top: 12.5vw;
+    }
   }
 }
+
+@media only screen and (max-width: 500px){
+  #news{
+    .container{
+      .slider{
+        width: 62.5vw;
+        .slide{
+          .bubble{
+            height: 40vw;
+            background-size: cover;
+            p{
+              padding: 0 4.25vw 1.25vw 4.25vw;
+              line-height: 5vw;
+              font-size: 4vw;
+            }
+            span{
+              font-size: 5vw;
+            }
+          }
+          .profile{
+            height: 12.5vw;
+            width: 12.5vw;
+          }
+        }
+        #slide_back{
+          font-size: 9.5vw;
+          left: -8.15vw;
+          top: 25vw;
+        }
+        #slide_forward{
+          font-size: 9.5vw;
+          right: -8.15vw;
+          top: 25vw;
+        }
+      }
+    }
+  }
+}
+// @media only screen and (max-width: 851px) {
+//   #news{
+//       .container{
+//         .slider{
+//           width: 60vw;
+//           .slide{
+//             .bubble{
+//               height: 20vw;
+//               p{
+//                 font-size: 2vw;
+//                 line-height: 2vw;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+// }

@@ -5,8 +5,11 @@
     width: 50vw;
     margin-left: 13vw; }
     .header_row1 .row1_column1 img {
-      height: 125px;
-      padding-top: 10px; }
+      height: 10vw;
+      min-height: 50px;
+      width: 10vw;
+      min-width: 50px;
+      padding: 0.5vw 0 0 0; }
 
 .row1_column2 {
   display: flex;
@@ -15,33 +18,55 @@
   width: 50vw;
   margin-right: 13vw; }
   .row1_column2 .registerlogin {
-    padding-bottom: 20px; }
+    padding-bottom: 1.25vw; }
     .row1_column2 .registerlogin button {
       margin: 0;
-      padding: 10px;
-      background-color: white;
+      padding: 0.5vw;
+      background-color: #fff;
       border: none;
       color: #ff8454;
       font-family: 'Oswald', sans-serif;
       text-transform: uppercase;
-      font-size: 15px;
+      font-size: 1.15vw;
       font-weight: 500;
       outline: none; }
   .row1_column2 .search {
+    margin: 0 0 2vw 0;
     background-color: #f2f3f4; }
     .row1_column2 .search input {
-      padding: 10px 7.5vw 10px 20px;
+      margin: 0;
+      padding: 0.5vw 7.5vw 0.5vw 1vw;
       background-color: #f2f3f4;
       border: none;
       color: gray;
       font-family: 'Oswald', sans-serif;
-      font-size: 17.5px;
+      font-size: 1.5vw;
       font-weight: 300;
       outline: none; }
     .row1_column2 .search button {
-      padding: 14px;
+      padding: 0.75vw;
       background-color: #f2f3f4;
       border: none; }
       .row1_column2 .search button .fa {
-        font-size: 20px;
+        font-size: 1.5vw;
         color: #454a4c; }
+
+@media only screen and (max-width: 500px) {
+  .header_row1 .row1_column1 {
+    width: 30vw;
+    margin: 0 0 0 2vw; }
+    .header_row1 .row1_column1 img {
+      height: 20vw;
+      width: 20vw; }
+  .row1_column2 {
+    width: 70vw;
+    margin: 0 2vw 0 0; }
+    .row1_column2 .registerlogin button {
+      font-size: 5vw; }
+    .row1_column2 .search {
+      margin: 0 0 2vw 0;
+      background-color: #f2f3f4; }
+      .row1_column2 .search input {
+        font-size: 5vw; }
+      .row1_column2 .search button .fa {
+        font-size: 5vw; } }

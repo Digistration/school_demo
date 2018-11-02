@@ -1,0 +1,48 @@
+$color-blue: #80c3d2;
+$color-orange: #ff8454;
+$color-green: #88c87b;
+$color-yellow: #f0cd3a;
+$color-black: #454a4c;
+$color-gray: #f2f3f4;
+
+#sticky_nav{
+  width: 10vw;
+  position: fixed;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  left: 1.25vw;
+  bottom: 1.25vw;
+  text-align: center;
+
+  #button{
+    width: 5vw;
+    height: 5vw;
+    margin: 0;
+    background-color: $color-orange;
+    display: flex;
+    justify-content: start;
+    cursor: pointer;
+
+    i{
+      margin: auto;
+      padding: 0;
+      color: #fff;
+      font-size: 2vw;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px){
+  #sticky_nav{
+    left: 0.5vw;
+    bottom: 0.5vw;
+    #button{
+      width: 7.5vw;
+      height: 7.5vw;
+      i{
+        font-size: 5vw;
+      }
+    }
+  }
+}

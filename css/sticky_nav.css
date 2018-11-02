@@ -1,0 +1,32 @@
+#sticky_nav {
+  width: 10vw;
+  position: fixed;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  left: 1.25vw;
+  bottom: 1.25vw;
+  text-align: center; }
+  #sticky_nav #button {
+    width: 5vw;
+    height: 5vw;
+    margin: 0;
+    background-color: #ff8454;
+    display: flex;
+    justify-content: start;
+    cursor: pointer; }
+    #sticky_nav #button i {
+      margin: auto;
+      padding: 0;
+      color: #fff;
+      font-size: 2vw; }
+
+@media only screen and (max-width: 500px) {
+  #sticky_nav {
+    left: 0.5vw;
+    bottom: 0.5vw; }
+    #sticky_nav #button {
+      width: 7.5vw;
+      height: 7.5vw; }
+      #sticky_nav #button i {
+        font-size: 5vw; } }

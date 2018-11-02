@@ -126,3 +126,41 @@
     display: none; }
   .testimonies_disabled #testimonies_button_close {
     display: block; }
+
+@media only screen and (max-width: 500px) {
+  #about .about_grid .founder {
+    top: 0;
+    left: 15vw; }
+    #about .about_grid .founder #founder_button_open {
+      display: block; }
+  #about .about_grid .founder_disabled #founder_button_open {
+    display: none; }
+  #about .about_grid .founder_disabled #founder_button_close {
+    display: none; }
+  #about .about_grid .philosophy {
+    top: 35vw;
+    left: 15vw; }
+    #about .about_grid .philosophy #philosophy_button_open {
+      display: block; }
+  #about .about_grid .philosophy_disabled #philosophy_button_open {
+    display: none; }
+  #about .about_grid .philosophy_disabled #philosophy_button_close {
+    display: none; }
+  #about .about_grid .vision {
+    top: 70vw;
+    left: 15vw; }
+    #about .about_grid .vision #vision_button_open {
+      display: block; }
+  #about .about_grid .vision_disabled #vision_button_open {
+    display: none; }
+  #about .about_grid .vision_disabled #vision_button_close {
+    display: none; }
+  #about .about_grid .testimonies {
+    top: 105vw;
+    left: 15vw; }
+    #about .about_grid .testimonies #testimonies_button_open {
+      display: block; }
+  #about .about_grid .testimonies_disabled #testimonies_button_open {
+    display: none; }
+  #about .about_grid .testimonies_disabled #testimonies_button_close {
+    display: none; } }

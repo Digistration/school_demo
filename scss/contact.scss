@@ -1,0 +1,184 @@
+$color-blue: #80c3d2;
+$color-orange: #ff8454;
+$color-green: #88c87b;
+$color-yellow: #f0cd3a;
+$color-black: #454a4c;
+$color-gray: #f2f3f4;
+
+#contact{
+  background-color: $color-black;
+  margin: 0;
+  padding: 0 0 2.5vw 0;
+  text-align: center;
+
+  h2{
+    color: #ffff;
+    font-family: 'Oswald';
+    font-size: 3.25vw;
+    letter-spacing: 0.1vw;
+    margin: 0 auto;
+    padding: 2.5vw 0;
+
+    span{
+      font-family: 'Kalam';
+    }
+    .span1{
+      color: $color-blue;
+    }
+    .span2{
+      color: $color-orange;
+    }
+    .span3{
+      color: $color-yellow;
+    }
+    .span4{
+      color: $color-green;
+    }
+  }
+
+  .container{
+    width: 65vw;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+
+    .col{
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+    }
+
+    .details{
+      float: left;
+      font-family: 'PT Sans Narrow';
+      font-size: 2vw;
+      letter-spacing: 0.07vw;
+
+      .row{
+        height: 4vw;
+        display: inline-flex;
+        text-align: left;
+
+        i{
+          font-size: 3vw;
+          color: $color-orange;
+          padding: 0 1vw;
+        }
+        .fa-phone{
+          padding-left: 1.25vw;
+        }
+        .fa-map-marker{
+          padding-left: 1.6vw;
+        }
+        .fa-facebook-square{
+          padding-left: 14vw;
+          cursor: pointer;
+        }
+        .fa-twitter-square{
+          cursor: pointer;
+        }
+        .fa-instagram{
+          cursor: pointer;
+        }
+
+        p{
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+
+    .form{
+      text-align: right;
+
+      input{
+        width: 25vw;
+        height: 4vw;
+        margin: 0 0 1vw 5vw;
+        color: #7A7B7C;
+        background-color: #515759;
+        border: none;
+        font-family: 'PT Sans Narrow';
+        font-size: 2vw;
+        letter-spacing: 0.07vw;
+      }
+      .form_message{
+        height: 10vw;
+      }
+
+      button{
+        width: 7.5vw;
+        margin: 0 0 0 22.5vw;
+        padding: 0.5vw 0;
+        color: #fff;
+        background-color: $color-blue;
+        border: none;
+        font-family: 'PT Sans Narrow';
+        font-size: 2vw;
+        letter-spacing: 0.07vw;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px){
+  #contact{
+    h2{
+      width: 75vw;
+      font-size: 5vw;
+      line-height: 6vw;
+    }
+    .container{
+      width: 80vw;
+      .details{
+        height: 35vw;
+        font-size: 4vw;
+        position: relative;
+        .row{
+          height: 6vw;
+          i{
+            font-size: 5vw;
+          }
+          .fa-phone{
+            padding-left: 1.25vw;
+          }
+          .fa-map-marker{
+            padding-left: 1.8vw;
+          }
+          .fa-facebook-square{
+            padding-left: 14vw;
+          }
+        }
+        .social{
+          position: absolute;
+          bottom: 2vw;
+          right: 0vw;
+        }
+      }
+      .form{
+        input{
+          width: 35vw;
+          height: 5vw;
+          font-size: 3vw;
+        }
+        .form_message{
+          height: 15vw;
+        }
+        button{
+          width: 12.5vw;
+          margin: 0 0 0 27.5vw;
+          padding: 2vw 0;
+          color: #fff;
+          background-color: $color-blue;
+          border: none;
+          font-family: 'PT Sans Narrow';
+          font-size: 3vw;
+          letter-spacing: 0.07vw;
+        }
+      }
+    }
+  }
+}

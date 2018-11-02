@@ -1,0 +1,127 @@
+#contact {
+  background-color: #454a4c;
+  margin: 0;
+  padding: 0 0 2.5vw 0;
+  text-align: center; }
+  #contact h2 {
+    color: #ffff;
+    font-family: 'Oswald';
+    font-size: 3.25vw;
+    letter-spacing: 0.1vw;
+    margin: 0 auto;
+    padding: 2.5vw 0; }
+    #contact h2 span {
+      font-family: 'Kalam'; }
+    #contact h2 .span1 {
+      color: #80c3d2; }
+    #contact h2 .span2 {
+      color: #ff8454; }
+    #contact h2 .span3 {
+      color: #f0cd3a; }
+    #contact h2 .span4 {
+      color: #88c87b; }
+  #contact .container {
+    width: 65vw;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    color: #fff; }
+    #contact .container .col {
+      display: flex;
+      flex-direction: column;
+      width: 50%; }
+    #contact .container .details {
+      float: left;
+      font-family: 'PT Sans Narrow';
+      font-size: 2vw;
+      letter-spacing: 0.07vw; }
+      #contact .container .details .row {
+        height: 4vw;
+        display: inline-flex;
+        text-align: left; }
+        #contact .container .details .row i {
+          font-size: 3vw;
+          color: #ff8454;
+          padding: 0 1vw; }
+        #contact .container .details .row .fa-phone {
+          padding-left: 1.25vw; }
+        #contact .container .details .row .fa-map-marker {
+          padding-left: 1.6vw; }
+        #contact .container .details .row .fa-facebook-square {
+          padding-left: 14vw;
+          cursor: pointer; }
+        #contact .container .details .row .fa-twitter-square {
+          cursor: pointer; }
+        #contact .container .details .row .fa-instagram {
+          cursor: pointer; }
+        #contact .container .details .row p {
+          margin: 0;
+          padding: 0; }
+    #contact .container .form {
+      text-align: right; }
+      #contact .container .form input {
+        width: 25vw;
+        height: 4vw;
+        margin: 0 0 1vw 5vw;
+        color: #7A7B7C;
+        background-color: #515759;
+        border: none;
+        font-family: 'PT Sans Narrow';
+        font-size: 2vw;
+        letter-spacing: 0.07vw; }
+      #contact .container .form .form_message {
+        height: 10vw; }
+      #contact .container .form button {
+        width: 7.5vw;
+        margin: 0 0 0 22.5vw;
+        padding: 0.5vw 0;
+        color: #fff;
+        background-color: #80c3d2;
+        border: none;
+        font-family: 'PT Sans Narrow';
+        font-size: 2vw;
+        letter-spacing: 0.07vw;
+        cursor: pointer; }
+
+@media only screen and (max-width: 500px) {
+  #contact h2 {
+    width: 75vw;
+    font-size: 5vw;
+    line-height: 6vw; }
+  #contact .container {
+    width: 80vw; }
+    #contact .container .details {
+      height: 35vw;
+      font-size: 4vw;
+      position: relative; }
+      #contact .container .details .row {
+        height: 6vw; }
+        #contact .container .details .row i {
+          font-size: 5vw; }
+        #contact .container .details .row .fa-phone {
+          padding-left: 1.25vw; }
+        #contact .container .details .row .fa-map-marker {
+          padding-left: 1.8vw; }
+        #contact .container .details .row .fa-facebook-square {
+          padding-left: 14vw; }
+      #contact .container .details .social {
+        position: absolute;
+        bottom: 2vw;
+        right: 0vw; }
+    #contact .container .form input {
+      width: 35vw;
+      height: 5vw;
+      font-size: 3vw; }
+    #contact .container .form .form_message {
+      height: 15vw; }
+    #contact .container .form button {
+      width: 12.5vw;
+      margin: 0 0 0 27.5vw;
+      padding: 2vw 0;
+      color: #fff;
+      background-color: #80c3d2;
+      border: none;
+      font-family: 'PT Sans Narrow';
+      font-size: 3vw;
+      letter-spacing: 0.07vw; } }

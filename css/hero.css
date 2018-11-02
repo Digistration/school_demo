@@ -1,9 +1,9 @@
-.hero {
+#hero {
   margin: 0;
   padding: 0;
   height: 50vw;
-  width: 100vw;
-  margin-top: 20px;
+  width: 100%;
+  margin-top: 1vw;
   background-image: url("../img/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;

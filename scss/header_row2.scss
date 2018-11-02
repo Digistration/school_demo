@@ -2,6 +2,8 @@ $color-blue: #80c3d2;
 $color-orange: #ff8454;
 $color-green: #88c87b;
 $color-yellow: #f0cd3a;
+$color-black: #454a4c;
+$color-gray: #f2f3f4;
 
 .header_row2{
   nav{
@@ -14,23 +16,47 @@ $color-yellow: #f0cd3a;
       padding: 0;
       margin: 0 auto;
       font-family: 'Oswald', sans-serif;
-      color: #454a4c;
-      font-size: 17.5px;
+      color: $color-black;
+      font-size: 1.5vw;
       display: flex;
       flex-direction: row;
       list-style-position: inside;
       list-style: none;
+
       li{
         width: 15%;
         padding: 1.25vw 0;
-        border-bottom: 0.05vw solid #f2f3f4;
+        border-bottom: 0.05vw solid $color-gray;
+        cursor: pointer;
       }
-      li:hover{
-        color: white;
-      }
+
       .home, .news{
         position: relative;
-        border-top: 5px solid $color-blue;
+        border-top: 0.3vw solid $color-blue;
+      }
+      .about, .blog{
+        position: relative;
+        border-top: 0.3vw solid $color-orange;
+      }
+      .staff, .gallery{
+        position: relative;
+        border-top: 0.3vw solid $color-yellow;
+      }
+      .services, .contact{
+        position: relative;
+        border-top: 0.3vw solid $color-green;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 501px){
+  .header_row2{
+    ul{
+      li:hover{
+        color: #fff;
+      }
+      .home, .news{
         -webkit-transform: translateZ(0);
         transform: translateZ(0);
           &:before{
@@ -57,8 +83,6 @@ $color-yellow: #f0cd3a;
         }
       }
       .about, .blog{
-        position: relative;
-        border-top: 5px solid $color-orange;
         -webkit-transform: translateZ(0);
         transform: translateZ(0);
           &:before{
@@ -85,8 +109,6 @@ $color-yellow: #f0cd3a;
         }
       }
       .staff, .gallery{
-        position: relative;
-        border-top: 5px solid $color-yellow;
         -webkit-transform: translateZ(0);
         transform: translateZ(0);
           &:before{
@@ -112,9 +134,7 @@ $color-yellow: #f0cd3a;
         transform: scaleY(1);
         }
       }
-      .services, .contacts{
-        position: relative;
-        border-top: 5px solid $color-green;
+      .services, .contact{
         -webkit-transform: translateZ(0);
         transform: translateZ(0);
           &:before{
@@ -138,6 +158,44 @@ $color-yellow: #f0cd3a;
         &:hover:before{
         -webkit-transform: scaleY(1);
         transform: scaleY(1);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .header_row2{
+    nav{
+      ul{
+        width: 100vw;
+        color: #fff;
+        font-size: 4vw;
+        li{
+          width: 20%;
+        }
+        .home, .about, .staff{
+          display: none;
+        }
+        .news{
+          border: none;
+          background-color: #fff;
+          color: $color-blue;
+        }
+        .blog{
+          border: none;
+          color: $color-orange;
+          background-color: #fff;
+        }
+        .gallery{
+          border: none;
+          background-color: #fff;
+          color: $color-yellow;
+        }
+        .services, .contact{
+          border: none;
+          color: $color-green;
+          background-color: #fff;
         }
       }
     }

@@ -5,63 +5,98 @@ $color-yellow: #f0cd3a;
 $color-black: #454a4c;
 $color-gray: #f2f3f4;
 
-// #blog{
-//   height: 75vw;
-//   text-align: center;
-//   margin: 0;
-//   padding: 0;
-//   background-color: $color-gray;
-//
-//   h1{
-//     height: 75px;
-//     margin: 0;
-//     color: $color-black;
-//     font-family: 'Oswald';
-//     font-size: 50px;
-//     text-transform: uppercase;
-//   }
-//
-//   .container{
-//     display: flex;
-//     flex-direction: column;
-//     width: 80vw;
-//     margin: auto;
-//     padding: 0;
-//
-//     .row{
-//       display: flex;
-//       flex-direction: row;
-//     }
-//
-//     .article{
-//       width: 25vw;
-//       height: 25vw;
-//       margin: 2vw;
-//       background-size: cover;
-//     }
-//
-//     span{
-//       height: 10vw;
-//       background-color: white;
-//     }
-//
-//     .article1{
-//       background-image: url('/img/article_1.jpg');
-//     }
-//     .article2{
-//       background-image: url('/img/article_2.jpg');
-//     }
-//     .article3{
-//       background-image: url('/img/article_3.jpg');
-//     }
-//     .article4{
-//       background-image: url('/img/article_4.jpg');
-//     }
-//     .article5{
-//       background-image: url('/img/article_5.jpg');
-//     }
-//     .article6{
-//       background-image: url('/img/article_6.jpg');
-//     }
-//   }
-// }
+#blog{
+  text-align: center;
+  margin: 0;
+  padding: 0 0 2.5vw 0;
+  background-color: $color-gray;
+
+  h1{
+    margin: 0 auto;
+    padding: 0;
+    color: $color-black;
+    font-family: 'Oswald';
+    font-size: 4vw;
+    text-transform: uppercase;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 0;
+
+    .row{
+      margin: 0 0 0.5vw 0;
+      padding: 0;
+      height: 27.5vw;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .article{
+      width: 22.5vw;
+      height: 25vw;
+      margin: 0 2vw;
+      background-size: cover;
+      overflow: hidden;
+    }
+
+    img{
+      margin:0;
+      padding: 0;
+      width: 130%;
+      height: 80%;
+    }
+
+    h2{
+      margin: 0;
+      padding: 0;
+      color: $color-black;
+      font-family: 'Oswald';
+      font-size: 2.5vw;
+      text-transform: capitalize;
+      float: left;
+    }
+
+    span{
+      color: $color-orange;
+      font-size: 1.5vw;
+      text-transform: uppercase;
+      float: right;
+      margin-left: 1vw;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px){
+  #blog{
+    .container{
+      width: 87.5vw;
+      .article{
+        width: 40vw;
+        height: 45vw;
+        margin: 0 1.75vw;
+      }
+      h2{
+        margin: 0;
+        padding: 0;
+        color: $color-black;
+        font-family: 'Oswald';
+        font-size: 4.25vw;
+        text-transform: capitalize;
+        float: left;
+      }
+
+      span{
+        color: $color-orange;
+        font-size: 3vw;
+        text-transform: uppercase;
+        float: right;
+        margin-left: 1vw;
+      }
+    }
+  }
+}

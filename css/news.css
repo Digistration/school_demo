@@ -1,30 +1,31 @@
 #news {
-  height: 35vw;
   text-align: center;
   margin: 0;
+  padding: 0;
   background-color: #ffff;
   position: relative; }
   #news h1 {
-    height: 75px;
-    margin: 0;
+    margin: 0 auto;
+    padding: 0;
     color: #454a4c;
     font-family: 'Oswald';
-    font-size: 50px;
+    font-size: 4vw;
     text-transform: uppercase; }
   #news .container {
-    background-color: #88c87b;
-    height: 35vw;
+    margin: 0;
+    padding: 0;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    background-color: #88c87b; }
     #news .container .slider {
-      width: 1200px;
-      margin: 20px auto;
+      width: 80vw;
+      margin: 1vw auto;
       text-align: center;
-      padding: 20px; }
+      padding: 1vw; }
       #news .container .slider .slide {
-        padding: 15px; }
+        padding: 2vw; }
         #news .container .slider .slide .bubble {
           height: 17.5vw;
           margin: 0;
@@ -32,23 +33,26 @@
           background-image: url("../img/bubble.png");
           background-repeat: no-repeat;
           background-size: contain;
-          overflow-wrap: break-word; }
+          overflow-wrap: break-word;
+          display: flex;
+          justify-content: center; }
+          #news .container .slider .slide .bubble p {
+            margin: auto;
+            padding: 0 1.25vw 1.25vw 1.25vw;
+            line-height: 1.8vw;
+            font-family: 'Roboto';
+            font-size: 1.75vw;
+            color: #454a4c; }
+          #news .container .slider .slide .bubble span {
+            font-size: 2vw;
+            font-weight: bold;
+            color: orange; }
         #news .container .slider .slide .profile {
           height: 5vw;
           width: 5vw;
           border-radius: 50%;
           background-repeat: no-repeat;
           background-size: cover; }
-        #news .container .slider .slide p {
-          margin: 0;
-          padding: 4vw 3vw 4vw 3vw;
-          line-height: 1.8vw;
-          font-family: 'Roboto';
-          color: black; }
-        #news .container .slider .slide span {
-          font-size: 2vw;
-          font-weight: bold;
-          color: orange; }
         #news .container .slider .slide .p1 {
           background-image: url("../img/profile_1.jpg"); }
         #news .container .slider .slide .p2 {
@@ -58,3 +62,36 @@
       #news .container .slider .fa {
         color: white;
         font-size: 3vw; }
+    #news .container i {
+      position: absolute;
+      cursor: pointer; }
+    #news .container #slide_back {
+      left: -2.15vw;
+      top: 12.5vw; }
+    #news .container #slide_forward {
+      right: -2.15vw;
+      top: 12.5vw; }
+
+@media only screen and (max-width: 500px) {
+  #news .container .slider {
+    width: 62.5vw; }
+    #news .container .slider .slide .bubble {
+      height: 40vw;
+      background-size: cover; }
+      #news .container .slider .slide .bubble p {
+        padding: 0 4.25vw 1.25vw 4.25vw;
+        line-height: 5vw;
+        font-size: 4vw; }
+      #news .container .slider .slide .bubble span {
+        font-size: 5vw; }
+    #news .container .slider .slide .profile {
+      height: 12.5vw;
+      width: 12.5vw; }
+    #news .container .slider #slide_back {
+      font-size: 9.5vw;
+      left: -8.15vw;
+      top: 25vw; }
+    #news .container .slider #slide_forward {
+      font-size: 9.5vw;
+      right: -8.15vw;
+      top: 25vw; } }

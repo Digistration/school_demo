@@ -2,59 +2,87 @@ $color-blue: #80c3d2;
 $color-orange: #ff8454;
 $color-green: #88c87b;
 $color-yellow: #f0cd3a;
+$color-black: #454a4c;
+$color-gray: #f2f3f4;
 
 @import 'grid_elements';
 
-.aboutus{
-  height: 350px;
+#about{
+  height: 27.5vw;
   margin: 0;
-  padding: 5px 0 70px 0;
-  background-color: #f2f3f4;
+  padding: 0 0 1.5vw 0;
+  background-color: $color-gray;
   text-align: center;
 
-  .aboutus_heading{
-    height: 75px;
-    color: #454a4c;
+  h1{
+    margin: 0 auto;
+    padding: 0;
+    color: $color-black;
     font-family: 'Oswald';
-    font-size: 50px;
+    font-size: 4vw;
     text-transform: uppercase;
-    margin: 0;
-    span{
-      font-family: 'Kalam';
-      color: $color-blue;
-      text-transform: none;
-    }
   }
 
-  .aboutus_grid{
+  .about_grid{
+    margin: 0 auto;
+    padding: 0;
     position: relative;
     div{
       height: 17vw;
       width: 17vw;
-      margin: 1vw;
+      margin: 0.25vw 1vw;
       h2{
         margin: 0;
         padding: 0;
-        margin: 6.5vw 0;
+        margin: 6.25vw 0;
         color: white;
         font-family: 'Oswald';
-        font-size: 2.5vw;
+        font-size: 3vw;
         text-transform: uppercase;
       }
       i{
         position: absolute;
         left: 11vw;
         top: 7vw;
-        display: none;
         font-size: 3.5vw;
         color: #ffff;
+        cursor: pointer;
       }
       p{
         color: #ffff;
         font-family: 'Roboto';
-        font-size: 1.25vw;
+        font-size: 2vw;
         width: 51vw;
-        margin: 6vw 0 0 19.5vw;
+        margin: 3vw 0 0 19.5vw;
+        text-align: left;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px){
+  #about{
+    height: 146vw;
+    .about_grid{
+      display: flex;
+      flex-direction: column;
+      div{
+        height: 30vw;
+        width: 70vw;
+        h2{
+          font-size: 7.5vw;
+        }
+        i{
+          left: 32vw;
+          top: 18vw;
+          font-size: 7.5vw;
+        }
+        p{
+          font-size: 3vw;
+          width: 60vw;
+          margin: 3vw auto;
+          text-align: center;
+        }
       }
     }
   }

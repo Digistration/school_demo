@@ -8,7 +8,7 @@
     margin: 0 auto;
     font-family: 'Oswald', sans-serif;
     color: #454a4c;
-    font-size: 17.5px;
+    font-size: 1.5vw;
     display: flex;
     flex-direction: row;
     list-style-position: inside;
@@ -16,106 +16,139 @@
     .header_row2 nav ul li {
       width: 15%;
       padding: 1.25vw 0;
-      border-bottom: 0.05vw solid #f2f3f4; }
-    .header_row2 nav ul li:hover {
-      color: white; }
+      border-bottom: 0.05vw solid #f2f3f4;
+      cursor: pointer; }
     .header_row2 nav ul .home, .header_row2 nav ul .news {
       position: relative;
-      border-top: 5px solid #80c3d2;
-      -webkit-transform: translateZ(0);
-      transform: translateZ(0); }
-      .header_row2 nav ul .home:before, .header_row2 nav ul .news:before {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: #80c3d2;
-        -webkit-transform: scaleY(0);
-        transform: scaleY(0);
-        -webkit-transform-origin: 50% 0%;
-        transform-origin: 50% 0%;
-        -webkit-transition-property: transform;
-        transition-property: transform;
-        -webkit-transition: 300ms ease-out;
-        transition: 300ms ease-out; }
-      .header_row2 nav ul .home:hover:before, .header_row2 nav ul .news:hover:before {
-        -webkit-transform: scaleY(1);
-        transform: scaleY(1); }
+      border-top: 0.3vw solid #80c3d2; }
     .header_row2 nav ul .about, .header_row2 nav ul .blog {
       position: relative;
-      border-top: 5px solid #ff8454;
-      -webkit-transform: translateZ(0);
-      transform: translateZ(0); }
-      .header_row2 nav ul .about:before, .header_row2 nav ul .blog:before {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: #ff8454;
-        -webkit-transform: scaleY(0);
-        transform: scaleY(0);
-        -webkit-transform-origin: 50% 0%;
-        transform-origin: 50% 0%;
-        -webkit-transition-property: transform;
-        transition-property: transform;
-        -webkit-transition: 300ms ease-out;
-        transition: 300ms ease-out; }
-      .header_row2 nav ul .about:hover:before, .header_row2 nav ul .blog:hover:before {
-        -webkit-transform: scaleY(1);
-        transform: scaleY(1); }
+      border-top: 0.3vw solid #ff8454; }
     .header_row2 nav ul .staff, .header_row2 nav ul .gallery {
       position: relative;
-      border-top: 5px solid #f0cd3a;
-      -webkit-transform: translateZ(0);
-      transform: translateZ(0); }
-      .header_row2 nav ul .staff:before, .header_row2 nav ul .gallery:before {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: #f0cd3a;
-        -webkit-transform: scaleY(0);
-        transform: scaleY(0);
-        -webkit-transform-origin: 50% 0%;
-        transform-origin: 50% 0%;
-        -webkit-transition-property: transform;
-        transition-property: transform;
-        -webkit-transition: 300ms ease-out;
-        transition: 300ms ease-out; }
-      .header_row2 nav ul .staff:hover:before, .header_row2 nav ul .gallery:hover:before {
-        -webkit-transform: scaleY(1);
-        transform: scaleY(1); }
-    .header_row2 nav ul .services, .header_row2 nav ul .contacts {
+      border-top: 0.3vw solid #f0cd3a; }
+    .header_row2 nav ul .services, .header_row2 nav ul .contact {
       position: relative;
-      border-top: 5px solid #88c87b;
-      -webkit-transform: translateZ(0);
-      transform: translateZ(0); }
-      .header_row2 nav ul .services:before, .header_row2 nav ul .contacts:before {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: #88c87b;
-        -webkit-transform: scaleY(0);
-        transform: scaleY(0);
-        -webkit-transform-origin: 50% 0%;
-        transform-origin: 50% 0%;
-        -webkit-transition-property: transform;
-        transition-property: transform;
-        -webkit-transition: 300ms ease-out;
-        transition: 300ms ease-out; }
-      .header_row2 nav ul .services:hover:before, .header_row2 nav ul .contacts:hover:before {
-        -webkit-transform: scaleY(1);
-        transform: scaleY(1); }
+      border-top: 0.3vw solid #88c87b; }
+
+@media only screen and (min-width: 501px) {
+  .header_row2 ul li:hover {
+    color: #fff; }
+  .header_row2 ul .home, .header_row2 ul .news {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); }
+    .header_row2 ul .home:before, .header_row2 ul .news:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #80c3d2;
+      -webkit-transform: scaleY(0);
+      transform: scaleY(0);
+      -webkit-transform-origin: 50% 0%;
+      transform-origin: 50% 0%;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition: 300ms ease-out;
+      transition: 300ms ease-out; }
+    .header_row2 ul .home:hover:before, .header_row2 ul .news:hover:before {
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1); }
+  .header_row2 ul .about, .header_row2 ul .blog {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); }
+    .header_row2 ul .about:before, .header_row2 ul .blog:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #ff8454;
+      -webkit-transform: scaleY(0);
+      transform: scaleY(0);
+      -webkit-transform-origin: 50% 0%;
+      transform-origin: 50% 0%;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition: 300ms ease-out;
+      transition: 300ms ease-out; }
+    .header_row2 ul .about:hover:before, .header_row2 ul .blog:hover:before {
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1); }
+  .header_row2 ul .staff, .header_row2 ul .gallery {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); }
+    .header_row2 ul .staff:before, .header_row2 ul .gallery:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #f0cd3a;
+      -webkit-transform: scaleY(0);
+      transform: scaleY(0);
+      -webkit-transform-origin: 50% 0%;
+      transform-origin: 50% 0%;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition: 300ms ease-out;
+      transition: 300ms ease-out; }
+    .header_row2 ul .staff:hover:before, .header_row2 ul .gallery:hover:before {
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1); }
+  .header_row2 ul .services, .header_row2 ul .contact {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); }
+    .header_row2 ul .services:before, .header_row2 ul .contact:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #88c87b;
+      -webkit-transform: scaleY(0);
+      transform: scaleY(0);
+      -webkit-transform-origin: 50% 0%;
+      transform-origin: 50% 0%;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition: 300ms ease-out;
+      transition: 300ms ease-out; }
+    .header_row2 ul .services:hover:before, .header_row2 ul .contact:hover:before {
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1); } }
+
+@media only screen and (max-width: 500px) {
+  .header_row2 nav ul {
+    width: 100vw;
+    color: #fff;
+    font-size: 4vw; }
+    .header_row2 nav ul li {
+      width: 20%; }
+    .header_row2 nav ul .home, .header_row2 nav ul .about, .header_row2 nav ul .staff {
+      display: none; }
+    .header_row2 nav ul .news {
+      border: none;
+      background-color: #fff;
+      color: #80c3d2; }
+    .header_row2 nav ul .blog {
+      border: none;
+      color: #ff8454;
+      background-color: #fff; }
+    .header_row2 nav ul .gallery {
+      border: none;
+      background-color: #fff;
+      color: #f0cd3a; }
+    .header_row2 nav ul .services, .header_row2 nav ul .contact {
+      border: none;
+      color: #88c87b;
+      background-color: #fff; } }

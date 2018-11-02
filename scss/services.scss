@@ -7,37 +7,39 @@ $color-gray: #f2f3f4;
 
 #services{
   height: 95vw;
-  text-align: center;
   margin: 0;
+  padding: 0 0 1.5vw 0;
+  text-align: center;
   background-color: $color-gray;
   position: relative;
 
   h1{
-    height: 75px;
-    margin: 0;
+    margin: 0 auto;
+    padding: 0;
     color: $color-black;
     font-family: 'Oswald';
-    font-size: 50px;
+    font-size: 4vw;
     text-transform: uppercase;
   }
   h2{
     color: #ffff;
     font-family: 'Oswald';
-    font-size: 2.5vw;
+    font-size: 3vw;
     letter-spacing: 0.1vw;
     text-transform: uppercase;
     margin: 1vw 0 0 0;
   }
   p{
+    margin: 0;
+    padding: 0 2vw;
     color: #ffff;
     font-family: 'Roboto';
-    font-size: 1.25vw;
-    padding: 0 2.5vw;
+    font-size: 2vw;
   }
 
   .background{
     height: 85vw;
-    background-image: url("../img/services_background.jpg");
+    background-image: url("../img/services_backgroundV.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -46,34 +48,71 @@ $color-gray: #f2f3f4;
 
   .service1{
     position: absolute;
-    left:5vw;
+    left:10vw;
     top: 10vw;
-    height: 14vw;
-    width: 45vw;
+    height: 16.75vw;
+    width: 55vw;
     background-color: $color-yellow;
   }
   .service2{
     position: absolute;
-    right: 5vw;
+    right: 10vw;
     top: 30vw;
-    height: 14vw;
-    width: 45vw;
+    height: 16.75vw;
+    width: 55vw;
     background-color: $color-green;
   }
   .service3{
     position: absolute;
-    left: 5vw;
+    left: 10vw;
     top: 50vw;
-    height: 14vw;
-    width: 45vw;
+    height: 16.75vw;
+    width: 55vw;
     background-color: $color-orange;
   }
   .service4{
     position: absolute;
-    right: 5vw;
+    right: 10vw;
     top: 70vw;
-    height: 14vw;
-    width: 45vw;
+    height: 16.75vw;
+    width: 55vw;
     background-color: $color-blue;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  #services{
+    height: 120vw;
+    h2{
+      font-size: 4vw;
+    }
+    p{
+      font-size: 3vw;
+    }
+    .background{
+      height: 115vw;
+    }
+    .service1{
+      height: 23vw;
+      width: 80vw;
+    }
+    .service2{
+      height: 23vw;
+      width: 80vw;
+      left: 10vw;
+      top: 37.5vw;
+    }
+    .service3{
+      height: 23vw;
+      width: 80vw;
+      left: 10vw;
+      top: 65vw;
+    }
+    .service4{
+      height: 23vw;
+      width: 80vw;
+      left: 10vw;
+      top: 92.5vw;
+    }
   }
 }

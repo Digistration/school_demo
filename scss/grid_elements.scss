@@ -2,6 +2,8 @@ $color-blue: #80c3d2;
 $color-orange: #ff8454;
 $color-green: #88c87b;
 $color-yellow: #f0cd3a;
+$color-black: #454a4c;
+$color-gray: #f2f3f4;
 
 .founder{
   position: absolute;
@@ -169,5 +171,72 @@ $color-yellow: #f0cd3a;
   }
   #testimonies_button_close{
     display: block;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  #about{
+    .about_grid{
+      .founder{
+        top: 0;
+        left: 15vw;
+        #founder_button_open{
+          display: block;
+        }
+      }
+      .founder_disabled{
+        #founder_button_open{
+          display: none;
+        }
+        #founder_button_close{
+          display: none;
+        }
+      }
+      .philosophy{
+        top: 35vw;
+        left: 15vw;
+        #philosophy_button_open{
+          display: block;
+        }
+      }
+      .philosophy_disabled{
+        #philosophy_button_open{
+          display: none;
+        }
+        #philosophy_button_close{
+          display: none;
+        }
+      }
+      .vision{
+        top: 70vw;
+        left: 15vw;
+        #vision_button_open{
+          display: block;
+        }
+      }
+      .vision_disabled{
+        #vision_button_open{
+          display: none;
+        }
+        #vision_button_close{
+          display: none;
+        }
+      }
+      .testimonies{
+        top: 105vw;
+        left: 15vw;
+        #testimonies_button_open{
+          display: block;
+        }
+      }
+      .testimonies_disabled{
+        #testimonies_button_open{
+          display: none;
+        }
+        #testimonies_button_close{
+          display: none;
+        }
+      }
+    }
   }
 }

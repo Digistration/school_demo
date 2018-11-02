@@ -2,19 +2,23 @@ $color-blue: #80c3d2;
 $color-orange: #ff8454;
 $color-green: #88c87b;
 $color-yellow: #f0cd3a;
+$color-black: #454a4c;
+$color-gray: #f2f3f4;
 
 #staff{
   height: 100vw;
+  margin: 0;
+  padding: 0 0 1.5vw 0;
   text-align: center;
   position: relative;
 
-  .staff_heading{
-    height: 75px;
-    color: #454a4c;
+  h1{
+    margin: 0 auto;
+    padding: 0;
+    color: $color-black;
     font-family: 'Oswald';
-    font-size: 50px;
+    font-size: 4vw;
     text-transform: uppercase;
-    margin: 0;
   }
 
   .staff_header{
@@ -47,59 +51,63 @@ $color-yellow: #f0cd3a;
     }
 
     p{
+      margin: 0;
+      padding: 0;
       opacity: 0;
       font-family: 'Roboto';
-      font-size: 1.25vw;
-      width: 40vw;
+      font-size: 2vw;
+      width: 45vw;
+    }
+
+    @keyframes attention{
+      0% {width: 15vw; height: 15vw;}
+      25% {width: 13.5vw; height: 13.5vw}
+      50% {width: 15vw; height: 15vw;}
+      52% {width: 15vw; height: 15vw;}
+      54% {width: 15vw; height: 15vw;}
+      56% {width: 15vw; height: 15vw;}
+      58% {width: 15vw; height: 15vw;}
+      60% {width: 15vw; height: 15vw;}
+      62% {width: 15vw; height: 15vw;}
+      64% {width: 15vw; height: 15vw;}
+      66% {width: 15vw; height: 15vw;}
+      68% {width: 15vw; height: 15vw;}
+      70% {width: 15vw; height: 15vw;}
+      72% {width: 15vw; height: 15vw;}
+      74% {width: 15vw; height: 15vw;}
+      76% {width: 15vw; height: 15vw;}
+      78% {width: 15vw; height: 15vw;}
+      80% {width: 15vw; height: 15vw;}
+      82% {width: 15vw; height: 15vw;}
+      84% {width: 15vw; height: 15vw;}
+      86% {width: 15vw; height: 15vw;}
+      88% {width: 15vw; height: 15vw;}
+      90% {width: 15vw; height: 15vw;}
+      92% {width: 15vw; height: 15vw;}
+      94% {width: 15vw; height: 15vw;}
+      96% {width: 15vw; height: 15vw;}
+      98% {width: 15vw; height: 15vw;}
+      100% {width: 15vw; height: 15vw;}
     }
 
     .background_yellow{
+      height: 15vw;
+      width: 15vw;
+      z-index: 90;
       position: absolute;
       left: 17.5vw;
       top: 4vw;
       transition-duration: 0.5s;
       transform: rotate(-40deg);
-      height: 15vw;
-      width: 15vw;
       background: $color-yellow;
     }
     .attention1{
       animation-name: attention;
       animation-duration: 4s;
       animation-iteration-count: infinite;
-      @keyframes attention{
-        0% {width: 15vw; height: 15vw;}
-        25% {width: 13.5vw; height: 13.5vw}
-        50% {width: 15vw; height: 15vw;}
-        52% {width: 15vw; height: 15vw;}
-        54% {width: 15vw; height: 15vw;}
-        56% {width: 15vw; height: 15vw;}
-        58% {width: 15vw; height: 15vw;}
-        60% {width: 15vw; height: 15vw;}
-        62% {width: 15vw; height: 15vw;}
-        64% {width: 15vw; height: 15vw;}
-        66% {width: 15vw; height: 15vw;}
-        68% {width: 15vw; height: 15vw;}
-        70% {width: 15vw; height: 15vw;}
-        72% {width: 15vw; height: 15vw;}
-        74% {width: 15vw; height: 15vw;}
-        76% {width: 15vw; height: 15vw;}
-        78% {width: 15vw; height: 15vw;}
-        80% {width: 15vw; height: 15vw;}
-        82% {width: 15vw; height: 15vw;}
-        84% {width: 15vw; height: 15vw;}
-        86% {width: 15vw; height: 15vw;}
-        88% {width: 15vw; height: 15vw;}
-        90% {width: 15vw; height: 15vw;}
-        92% {width: 15vw; height: 15vw;}
-        94% {width: 15vw; height: 15vw;}
-        96% {width: 15vw; height: 15vw;}
-        98% {width: 15vw; height: 15vw;}
-        100% {width: 15vw; height: 15vw;}
-      }
     }
     .profile1{
-      z-index: -1;
+      z-index: 10;
       display: none;
       position: absolute;
       top: 6.5vw;
@@ -107,18 +115,19 @@ $color-yellow: #f0cd3a;
       width: 50vw;
       p{
         color: $color-yellow;
-        margin: 2vw 0 0 40vw;
+        margin: 0 0 0 42.5vw;
       }
     }
 
     .background_green{
+      height: 15vw;
+      width: 15vw;
+      z-index: 90;
       position: absolute;
       left: 10vw;
       top: 22.5vw;
       transition-duration: 0.5s;
       transform: rotate(10deg);
-      height: 15vw;
-      width: 15vw;
       background: $color-green;
     }
     .attention2{
@@ -126,39 +135,9 @@ $color-yellow: #f0cd3a;
       animation-duration: 4s;
       animation-delay: 0.5s;
       animation-iteration-count: infinite;
-      @keyframes attention{
-        0% {width: 15vw; height: 15vw;}
-        25% {width: 13.5vw; height: 13.5vw}
-        50% {width: 15vw; height: 15vw;}
-        52% {width: 15vw; height: 15vw;}
-        54% {width: 15vw; height: 15vw;}
-        56% {width: 15vw; height: 15vw;}
-        58% {width: 15vw; height: 15vw;}
-        60% {width: 15vw; height: 15vw;}
-        62% {width: 15vw; height: 15vw;}
-        64% {width: 15vw; height: 15vw;}
-        66% {width: 15vw; height: 15vw;}
-        68% {width: 15vw; height: 15vw;}
-        70% {width: 15vw; height: 15vw;}
-        72% {width: 15vw; height: 15vw;}
-        74% {width: 15vw; height: 15vw;}
-        76% {width: 15vw; height: 15vw;}
-        78% {width: 15vw; height: 15vw;}
-        80% {width: 15vw; height: 15vw;}
-        82% {width: 15vw; height: 15vw;}
-        84% {width: 15vw; height: 15vw;}
-        86% {width: 15vw; height: 15vw;}
-        88% {width: 15vw; height: 15vw;}
-        90% {width: 15vw; height: 15vw;}
-        92% {width: 15vw; height: 15vw;}
-        94% {width: 15vw; height: 15vw;}
-        96% {width: 15vw; height: 15vw;}
-        98% {width: 15vw; height: 15vw;}
-        100% {width: 15vw; height: 15vw;}
-      }
     }
     .profile2{
-      z-index: -1;
+      z-index: 10;
       display: none;
       position: absolute;
       top: 25vw;
@@ -166,18 +145,19 @@ $color-yellow: #f0cd3a;
       width: 50vw;
       p{
         color: $color-green;
-        margin: 2vw 0 0 32.8vw;
+        margin: 0 0 0 35vw;
       }
     }
 
     .background_blue{
+      height: 15vw;
+      width: 15vw;
+      z-index: 90;
       position: absolute;
       left: 15vw;
       top: 41.5vw;
       transition-duration: 0.5s;
       transform: rotate(-30deg);
-      height: 15vw;
-      width: 15vw;
       background: $color-blue;
     }
     .attention3{
@@ -185,39 +165,9 @@ $color-yellow: #f0cd3a;
       animation-duration: 4s;
       animation-delay: 1s;
       animation-iteration-count: infinite;
-      @keyframes attention{
-        0% {width: 15vw; height: 15vw;}
-        25% {width: 13.5vw; height: 13.5vw}
-        50% {width: 15vw; height: 15vw;}
-        52% {width: 15vw; height: 15vw;}
-        54% {width: 15vw; height: 15vw;}
-        56% {width: 15vw; height: 15vw;}
-        58% {width: 15vw; height: 15vw;}
-        60% {width: 15vw; height: 15vw;}
-        62% {width: 15vw; height: 15vw;}
-        64% {width: 15vw; height: 15vw;}
-        66% {width: 15vw; height: 15vw;}
-        68% {width: 15vw; height: 15vw;}
-        70% {width: 15vw; height: 15vw;}
-        72% {width: 15vw; height: 15vw;}
-        74% {width: 15vw; height: 15vw;}
-        76% {width: 15vw; height: 15vw;}
-        78% {width: 15vw; height: 15vw;}
-        80% {width: 15vw; height: 15vw;}
-        82% {width: 15vw; height: 15vw;}
-        84% {width: 15vw; height: 15vw;}
-        86% {width: 15vw; height: 15vw;}
-        88% {width: 15vw; height: 15vw;}
-        90% {width: 15vw; height: 15vw;}
-        92% {width: 15vw; height: 15vw;}
-        94% {width: 15vw; height: 15vw;}
-        96% {width: 15vw; height: 15vw;}
-        98% {width: 15vw; height: 15vw;}
-        100% {width: 15vw; height: 15vw;}
-      }
     }
     .profile3{
-      z-index: -1;
+      z-index: 10;
       display: none;
       position: absolute;
       top: 44vw;
@@ -225,7 +175,87 @@ $color-yellow: #f0cd3a;
       width: 50vw;
       p{
         color: $color-blue;
-        margin: 2vw 0 0 38.5vw;
+        margin: 0 0 0 39.5vw;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px){
+  #staff{
+    height: 120vw;
+    .profiles{
+      img{
+        height: 17.5vw;
+        width: 14vw;
+      }
+      p{
+        margin: 0;
+        padding: 0;
+        font-size: 3vw;
+        width: 55vw;
+      }
+      @keyframes attention{
+        0% {width: 20vw; height: 20vw;}
+        25% {width: 17.5vw; height: 17.5vw}
+        50% {width: 20vw; height: 20vw;}
+        52% {width: 20vw; height: 20vw;}
+        54% {width: 20vw; height: 20vw;}
+        56% {width: 20vw; height: 20vw;}
+        58% {width: 20vw; height: 20vw;}
+        60% {width: 20vw; height: 20vw;}
+        62% {width: 20vw; height: 20vw;}
+        64% {width: 20vw; height: 20vw;}
+        66% {width: 20vw; height: 20vw;}
+        68% {width: 20vw; height: 20vw;}
+        70% {width: 20vw; height: 20vw;}
+        72% {width: 20vw; height: 20vw;}
+        74% {width: 20vw; height: 20vw;}
+        76% {width: 20vw; height: 20vw;}
+        78% {width: 20vw; height: 20vw;}
+        80% {width: 20vw; height: 20vw;}
+        82% {width: 20vw; height: 20vw;}
+        84% {width: 20vw; height: 20vw;}
+        86% {width: 20vw; height: 20vw;}
+        88% {width: 20vw; height: 20vw;}
+        90% {width: 20vw; height: 20vw;}
+        92% {width: 20vw; height: 20vw;}
+        94% {width: 20vw; height: 20vw;}
+        96% {width: 20vw; height: 20vw;}
+        98% {width: 20vw; height: 20vw;}
+        100% {width: 20vw; height: 20vw;}
+      }
+      .background_yellow{
+        height: 20vw;
+        width: 20vw;
+        left: 10vw;
+      }
+      .profile1{
+        top: 5.25vw;
+      }
+      .background_green{
+        height: 20vw;
+        width: 20vw;
+        top: 30vw;
+        left: 10vw;
+      }
+      .profile2{
+        top: 31.25vw;
+        p{
+          margin: 0 0 0 42.5vw;
+        }
+      }
+      .background_blue{
+        height: 20vw;
+        width: 20vw;
+        top: 55vw;
+        left: 10vw;
+      }
+      .profile3{
+        top: 56.25vw;
+        p{
+          margin: -1.25vw 0 0 42.5vw;
+        }
       }
     }
   }
