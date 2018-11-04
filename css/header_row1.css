@@ -5,11 +5,10 @@
     width: 50vw;
     margin-left: 13vw; }
     .header_row1 .row1_column1 img {
-      height: 10vw;
-      min-height: 50px;
-      width: 10vw;
-      min-width: 50px;
-      min-height: 50px;
+      height: 12.5vw;
+      min-height: 7px;
+      width: 12.5vw;
+      min-width: 75px;
       padding: 0.5vw 0 0 0; }
 
 .row1_column2 {

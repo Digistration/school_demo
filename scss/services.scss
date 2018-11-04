@@ -31,11 +31,12 @@ $color-gray: #f2f3f4;
   }
   p{
     margin: 0;
-    padding: 0 2vw;
+    padding: 0 2vw 2vw 2vw;
     color: #ffff;
     font-family: 'Roboto';
-    font-weight: 600;
+    font-weight: 400;
     font-size: 2vw;
+    letter-spacing: 0.08vw;
   }
 
   .background{
@@ -51,16 +52,14 @@ $color-gray: #f2f3f4;
     position: absolute;
     left:10vw;
     top: 10vw;
-    height: 16.75vw;
-    width: 55vw;
+    width: 60vw;
     background-color: $color-yellow;
   }
   .service2{
     position: absolute;
     right: 10vw;
     top: 30vw;
-    height: 16.75vw;
-    width: 55vw;
+    width: 60vw;
     background-color: $color-green;
   }
   .service3{
@@ -68,15 +67,14 @@ $color-gray: #f2f3f4;
     left: 10vw;
     top: 50vw;
     height: 16.75vw;
-    width: 55vw;
+    width: 60vw;
     background-color: $color-orange;
   }
   .service4{
     position: absolute;
     right: 10vw;
     top: 70vw;
-    height: 16.75vw;
-    width: 55vw;
+    width: 60vw;
     background-color: $color-blue;
   }
 }

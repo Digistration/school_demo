@@ -21,11 +21,12 @@
     margin: 1vw 0 0 0; }
   #services p {
     margin: 0;
-    padding: 0 2vw;
+    padding: 0 2vw 2vw 2vw;
     color: #ffff;
     font-family: 'Roboto';
-    font-weight: 600;
-    font-size: 2vw; }
+    font-weight: 400;
+    font-size: 2vw;
+    letter-spacing: 0.08vw; }
   #services .background {
     height: 85vw;
     background-image: url("../img/services_backgroundV.jpg");
@@ -37,29 +38,26 @@
     position: absolute;
     left: 10vw;
     top: 10vw;
-    height: 16.75vw;
-    width: 55vw;
+    width: 60vw;
     background-color: #f0cd3a; }
   #services .service2 {
     position: absolute;
     right: 10vw;
     top: 30vw;
-    height: 16.75vw;
-    width: 55vw;
+    width: 60vw;
     background-color: #88c87b; }
   #services .service3 {
     position: absolute;
     left: 10vw;
     top: 50vw;
     height: 16.75vw;
-    width: 55vw;
+    width: 60vw;
     background-color: #ff8454; }
   #services .service4 {
     position: absolute;
     right: 10vw;
     top: 70vw;
-    height: 16.75vw;
-    width: 55vw;
+    width: 60vw;
     background-color: #80c3d2; }
 
 @media only screen and (max-width: 500px) {
