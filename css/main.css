@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600");
 @import url("https://fonts.googleapis.com/css?family=Kalam");
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600");
 @import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow");
 #sticky_nav {
   width: 10vw;
@@ -857,6 +857,7 @@ header {
     padding: 0 2vw;
     color: #ffff;
     font-family: 'Roboto';
+    font-weight: 400;
     font-size: 2vw; }
   #services .background {
     height: 85vw;
@@ -971,6 +972,7 @@ header {
             line-height: 1.8vw;
             font-family: 'Roboto';
             font-size: 1.75vw;
+            font-weight: 400;
             color: #454a4c; }
           #news .container .slider .slide .bubble span {
             font-size: 2vw;

@@ -42,6 +42,7 @@
             line-height: 1.8vw;
             font-family: 'Roboto';
             font-size: 1.75vw;
+            font-weight: 400;
             color: #454a4c; }
           #news .container .slider .slide .bubble span {
             font-size: 2vw;
