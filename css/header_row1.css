@@ -9,6 +9,7 @@
       min-height: 50px;
       width: 10vw;
       min-width: 50px;
+      min-height: 50px;
       padding: 0.5vw 0 0 0; }
 
 .row1_column2 {
@@ -56,8 +57,8 @@
     width: 30vw;
     margin: 0 0 0 2vw; }
     .header_row1 .row1_column1 img {
-      height: 22.5vw;
-      width: 22.5vw; }
+      height: 23vw;
+      width: 23vw; }
   .row1_column2 {
     width: 70vw;
     margin: 0 2vw 0 0; }

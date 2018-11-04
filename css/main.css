@@ -49,6 +49,7 @@ header {
         min-height: 50px;
         width: 10vw;
         min-width: 50px;
+        min-height: 50px;
         padding: 0.5vw 0 0 0; }
   header .row1_column2 {
     display: flex;
@@ -94,8 +95,8 @@ header {
       width: 30vw;
       margin: 0 0 0 2vw; }
       header .header_row1 .row1_column1 img {
-        height: 22.5vw;
-        width: 22.5vw; }
+        height: 23vw;
+        width: 23vw; }
     header .row1_column2 {
       width: 70vw;
       margin: 0 2vw 0 0; }
@@ -857,7 +858,7 @@ header {
     padding: 0 2vw;
     color: #ffff;
     font-family: 'Roboto';
-    font-weight: 400;
+    font-weight: 600;
     font-size: 2vw; }
   #services .background {
     height: 85vw;
@@ -972,7 +973,7 @@ header {
             line-height: 1.8vw;
             font-family: 'Roboto';
             font-size: 1.75vw;
-            font-weight: 400;
+            font-weight: 600;
             color: #454a4c; }
           #news .container .slider .slide .bubble span {
             font-size: 2vw;
