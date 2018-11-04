@@ -91,6 +91,11 @@ $color-gray: #f2f3f4;
     }
     .background{
       height: 115vw;
+      background-image: url("../img/services_backgroundV.jpg");
+      background-attachment: scroll;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
     .service1{
       height: 23vw;

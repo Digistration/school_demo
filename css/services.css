@@ -69,7 +69,12 @@
     #services p {
       font-size: 3vw; }
     #services .background {
-      height: 115vw; }
+      height: 115vw;
+      background-image: url("../img/services_backgroundV.jpg");
+      background-attachment: scroll;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
     #services .service1 {
       height: 23vw;
       width: 80vw; }
