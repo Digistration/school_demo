@@ -484,6 +484,8 @@ header {
         color: #ffff;
         font-family: 'Roboto';
         font-size: 2vw;
+        font-weight: 500;
+        letter-spacing: 0.01vw;
         width: 51vw;
         margin: 3vw 0 0 19.5vw;
         text-align: left; }
@@ -549,6 +551,8 @@ header {
       opacity: 0;
       font-family: 'Roboto';
       font-size: 2vw;
+      font-weight: 500;
+      letter-spacing: 0.01vw;
       width: 45vw; }
 
 @keyframes attention {
@@ -859,9 +863,9 @@ header {
     padding: 0 2vw 2vw 2vw;
     color: #ffff;
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 2vw;
-    letter-spacing: 0.08vw; }
+    font-weight: 500;
+    letter-spacing: 0.01vw; }
   #services .background {
     margin: 0;
     padding: 0;
@@ -953,7 +957,8 @@ header {
             line-height: 1.8vw;
             font-family: 'Roboto';
             font-size: 1.75vw;
-            font-weight: 600;
+            font-weight: 500;
+            letter-spacing: 0.01vw;
             color: #454a4c; }
           #news .container .slider .slide .bubble span {
             font-size: 2vw;
