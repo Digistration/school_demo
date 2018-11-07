@@ -129,34 +129,16 @@ $color-gray: #f2f3f4;
           }
         }
         #slide_back{
-          font-size: 9.5vw;
-          left: -8.15vw;
+          font-size: 10vw;
+          left: -12.5vw;
           top: 25vw;
         }
         #slide_forward{
-          font-size: 9.5vw;
-          right: -8.15vw;
+          font-size: 10vw;
+          right: -12.5vw;
           top: 25vw;
         }
       }
     }
   }
 }
-// @media only screen and (max-width: 851px) {
-//   #news{
-//       .container{
-//         .slider{
-//           width: 60vw;
-//           .slide{
-//             .bubble{
-//               height: 20vw;
-//               p{
-//                 font-size: 2vw;
-//                 line-height: 2vw;
-//               }
-//             }
-//           }
-//         }
-//       }
-//     }
-// }

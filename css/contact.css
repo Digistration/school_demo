@@ -23,7 +23,7 @@
   #contact .container {
     width: 65vw;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 0 5vw 0;
     display: flex;
     flex-direction: row;
     color: #fff; }
@@ -59,7 +59,7 @@
           margin: 0;
           padding: 0; }
     #contact .container .form {
-      text-align: right; }
+      position: relative; }
       #contact .container .form input {
         width: 25vw;
         height: 4vw;
@@ -74,7 +74,9 @@
         height: 10vw; }
       #contact .container .form button {
         width: 7.5vw;
-        margin: 0 0 0 22.5vw;
+        position: absolute;
+        right: 2.5vw;
+        top: 21.5vw;
         padding: 0.5vw 0;
         color: #fff;
         background-color: #80c3d2;
@@ -117,11 +119,7 @@
       height: 15vw; }
     #contact .container .form button {
       width: 12.5vw;
-      margin: 0 0 0 27.5vw;
+      right: 0;
+      top: 30.5vw;
       padding: 2vw 0;
-      color: #fff;
-      background-color: #80c3d2;
-      border: none;
-      font-family: 'PT Sans Narrow';
-      font-size: 3vw;
-      letter-spacing: 0.07vw; } }
+      font-size: 3vw; } }

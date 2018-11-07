@@ -51,10 +51,10 @@
 
 @media only screen and (max-width: 500px) {
   #blog .container {
-    width: 87.5vw; }
+    width: 95vw; }
     #blog .container .article {
-      width: 40vw;
-      height: 45vw;
+      width: 43.75vw;
+      height: 47.5vw;
       margin: 0 1.75vw; }
     #blog .container h2 {
       margin: 0;

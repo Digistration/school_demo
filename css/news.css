@@ -90,10 +90,10 @@
       height: 12.5vw;
       width: 12.5vw; }
     #news .container .slider #slide_back {
-      font-size: 9.5vw;
-      left: -8.15vw;
+      font-size: 10vw;
+      left: -12.5vw;
       top: 25vw; }
     #news .container .slider #slide_forward {
-      font-size: 9.5vw;
-      right: -8.15vw;
+      font-size: 10vw;
+      right: -12.5vw;
       top: 25vw; } }

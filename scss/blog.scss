@@ -74,10 +74,10 @@ $color-gray: #f2f3f4;
 @media only screen and (max-width: 500px){
   #blog{
     .container{
-      width: 87.5vw;
+      width: 95vw;
       .article{
-        width: 40vw;
-        height: 45vw;
+        width: 43.75vw;
+        height: 47.5vw;
         margin: 0 1.75vw;
       }
       h2{
@@ -89,7 +89,6 @@ $color-gray: #f2f3f4;
         text-transform: capitalize;
         float: left;
       }
-
       span{
         color: $color-orange;
         font-size: 3vw;

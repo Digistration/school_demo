@@ -35,14 +35,6 @@ $color-gray: #f2f3f4;
 
 @media only screen and (max-width: 500px){
   #sticky_nav{
-    left: 0.5vw;
-    bottom: 0.5vw;
-    #button{
-      width: 7.5vw;
-      height: 7.5vw;
-      i{
-        font-size: 5vw;
-      }
-    }
+    display: none;
   }
 }
