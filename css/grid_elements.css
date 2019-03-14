@@ -15,19 +15,15 @@
 
 .founder_hover h2 {
   display: none; }
-
 .founder_hover #founder_button_open {
   display: block; }
 
 .founder_disabled h2 {
   display: none; }
-
 .founder_disabled #founder_button_open {
   display: none; }
-
 .founder_disabled #founder_button_close {
   display: block; }
-
 .founder_disabled p {
   display: block; }
 
@@ -49,7 +45,6 @@
 .philosophy_hover h2 {
   display: none;
   margin-left: -10vw; }
-
 .philosophy_hover #philosophy_button_open {
   display: block; }
 
@@ -80,7 +75,6 @@
 
 .vision_hover h2 {
   display: none; }
-
 .vision_hover #vision_button_open {
   display: block; }
 
@@ -113,7 +107,6 @@
 
 .testimonies_hover h2 {
   display: none; }
-
 .testimonies_hover #testimonies_button_open {
   display: block; }
 
@@ -164,3 +157,5 @@
     display: none; }
   #about .about_grid .testimonies_disabled #testimonies_button_close {
     display: none; } }
+
+/*# sourceMappingURL=grid_elements.css.map */

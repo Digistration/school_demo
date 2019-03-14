@@ -28,7 +28,6 @@
 @media only screen and (max-width: 500px) {
   #sticky_nav {
     display: none; } }
-
 header {
   display: flex;
   flex-direction: column; }
@@ -288,19 +287,15 @@ header {
 
 .founder_hover h2 {
   display: none; }
-
 .founder_hover #founder_button_open {
   display: block; }
 
 .founder_disabled h2 {
   display: none; }
-
 .founder_disabled #founder_button_open {
   display: none; }
-
 .founder_disabled #founder_button_close {
   display: block; }
-
 .founder_disabled p {
   display: block; }
 
@@ -322,7 +317,6 @@ header {
 .philosophy_hover h2 {
   display: none;
   margin-left: -10vw; }
-
 .philosophy_hover #philosophy_button_open {
   display: block; }
 
@@ -353,7 +347,6 @@ header {
 
 .vision_hover h2 {
   display: none; }
-
 .vision_hover #vision_button_open {
   display: block; }
 
@@ -386,7 +379,6 @@ header {
 
 .testimonies_hover h2 {
   display: none; }
-
 .testimonies_hover #testimonies_button_open {
   display: block; }
 
@@ -437,7 +429,6 @@ header {
     display: none; }
   #about .about_grid .testimonies_disabled #testimonies_button_close {
     display: none; } }
-
 #about {
   height: 27.5vw;
   margin: 0;
@@ -504,7 +495,6 @@ header {
           width: 60vw;
           margin: 3vw auto;
           text-align: center; } }
-
 #staff {
   height: 100vw;
   margin: 0;
@@ -535,10 +525,17 @@ header {
       width: 50vw; }
   #staff .profiles {
     position: relative; }
+    #staff .profiles h1 {
+      margin: auto;
+      color: white;
+      font-family: 'Oswald';
+      font-size: 3vw; }
     #staff .profiles img {
+      height: 12.5vw;
+      width: 9.4vw;
       position: absolute;
-      height: 10vw;
-      width: 7.5vw; }
+      top: -1.25vw;
+      left: -1.25vw; }
     #staff .profiles p {
       margin: 0;
       padding: 0;
@@ -548,14 +545,13 @@ header {
       font-weight: 500;
       letter-spacing: 0.01vw;
       width: 45vw; }
-
 @keyframes attention {
   0% {
     width: 15vw;
     height: 15vw; }
   25% {
-    width: 13.5vw;
-    height: 13.5vw; }
+    width: 12.5vw;
+    height: 12.5vw; }
   50% {
     width: 15vw;
     height: 15vw; }
@@ -641,20 +637,26 @@ header {
       position: absolute;
       left: 17.5vw;
       top: 4vw;
+      display: flex;
+      justify-content: center;
+      text-align: center;
       transition-duration: 0.5s;
       transform: rotate(-40deg);
-      background: #f0cd3a; }
+      background: #f0cd3a;
+      cursor: pointer; }
     #staff .profiles .attention1 {
       animation-name: attention;
-      animation-duration: 4s;
+      animation-duration: 3s;
       animation-iteration-count: infinite; }
     #staff .profiles .profile1 {
       z-index: 10;
-      display: none;
       position: absolute;
       top: 6.5vw;
       height: 10vw;
       width: 50vw; }
+      #staff .profiles .profile1 #profile_1 {
+        display: none;
+        left: 22.5vw; }
       #staff .profiles .profile1 p {
         color: #f0cd3a;
         margin: 0 0 0 42.5vw; }
@@ -665,21 +667,27 @@ header {
       position: absolute;
       left: 10vw;
       top: 22.5vw;
+      display: flex;
+      justify-content: center;
+      text-align: center;
       transition-duration: 0.5s;
       transform: rotate(10deg);
-      background: #88c87b; }
+      background: #88c87b;
+      cursor: pointer; }
     #staff .profiles .attention2 {
       animation-name: attention;
-      animation-duration: 4s;
+      animation-duration: 3s;
       animation-delay: 0.5s;
       animation-iteration-count: infinite; }
     #staff .profiles .profile2 {
       z-index: 10;
-      display: none;
       position: absolute;
       top: 25vw;
       height: 10vw;
       width: 50vw; }
+      #staff .profiles .profile2 #profile_2 {
+        display: none;
+        left: 15vw; }
       #staff .profiles .profile2 p {
         color: #88c87b;
         margin: 0 0 0 35vw; }
@@ -690,21 +698,27 @@ header {
       position: absolute;
       left: 15vw;
       top: 41.5vw;
+      display: flex;
+      justify-content: center;
+      text-align: center;
       transition-duration: 0.5s;
       transform: rotate(-30deg);
-      background: #80c3d2; }
+      background: #80c3d2;
+      cursor: pointer; }
     #staff .profiles .attention3 {
       animation-name: attention;
-      animation-duration: 4s;
+      animation-duration: 3s;
       animation-delay: 1s;
       animation-iteration-count: infinite; }
     #staff .profiles .profile3 {
       z-index: 10;
-      display: none;
       position: absolute;
       top: 44vw;
       height: 12.5vw;
       width: 50vw; }
+      #staff .profiles .profile3 #profile_3 {
+        display: none;
+        left: 15vw; }
       #staff .profiles .profile3 p {
         color: #80c3d2;
         margin: 0 0 0 39.5vw; }
@@ -714,7 +728,9 @@ header {
     height: 120vw; }
     #staff .profiles img {
       height: 17.5vw;
-      width: 14vw; }
+      width: 14vw;
+      top: 0;
+      left: 0; }
     #staff .profiles p {
       margin: 0;
       padding: 0;
@@ -810,14 +826,14 @@ header {
     #staff .profiles .background_yellow {
       height: 20vw;
       width: 20vw;
-      left: 10vw; }
+      left: 7.5vw; }
     #staff .profiles .profile1 {
       top: 5.25vw; }
     #staff .profiles .background_green {
       height: 20vw;
       width: 20vw;
       top: 30vw;
-      left: 10vw; }
+      left: 7.5vw; }
     #staff .profiles .profile2 {
       top: 31.25vw; }
       #staff .profiles .profile2 p {
@@ -826,12 +842,11 @@ header {
       height: 20vw;
       width: 20vw;
       top: 55vw;
-      left: 10vw; }
+      left: 7.5vw; }
     #staff .profiles .profile3 {
       top: 56.25vw; }
       #staff .profiles .profile3 p {
         margin: -1.25vw 0 0 42.5vw; } }
-
 #services {
   margin: 0;
   padding: 0;
@@ -906,7 +921,6 @@ header {
       font-size: 4vw; }
     #services .background .container p {
       font-size: 3vw; } }
-
 #news {
   text-align: center;
   margin: 0;
@@ -1006,7 +1020,6 @@ header {
       font-size: 10vw;
       right: -12.5vw;
       top: 25vw; } }
-
 #blog {
   text-align: center;
   margin: 0;
@@ -1079,7 +1092,6 @@ header {
       text-transform: uppercase;
       float: right;
       margin-left: 1vw; } }
-
 #gallery {
   text-align: center;
   margin: 0;
@@ -1115,7 +1127,7 @@ header {
           display: inline-block; }
       #gallery .slider_gallery .slider_outer i {
         position: absolute;
-        font-size: 3.5vw;
+        font-size: 7.5vw;
         color: #fff;
         z-index: 100;
         cursor: pointer; }
@@ -1135,7 +1147,6 @@ header {
   #gallery .slider_gallery .slider_outer #button_next {
     right: 8.5vw;
     top: 20vw; } }
-
 #contact {
   background-color: #454a4c;
   margin: 0;
@@ -1223,6 +1234,9 @@ header {
         font-size: 2vw;
         letter-spacing: 0.07vw;
         cursor: pointer; }
+        #contact .container .form button textarea, #contact .container .form button input.text, #contact .container .form button input[type="text"], #contact .container .form button input[type="button"], #contact .container .form button input[type="submit"], #contact .container .form button .input-checkbox {
+          -webkit-appearance: none;
+          border-radius: 0; }
 
 @media only screen and (max-width: 500px) {
   #contact h2 {
@@ -1254,14 +1268,15 @@ header {
       height: 5vw;
       font-size: 3vw; }
     #contact .container .form .form_message {
-      height: 15vw; }
+      height: 10vw; }
     #contact .container .form button {
       width: 12.5vw;
       right: 0;
-      top: 30.5vw;
+      top: 25vw;
       padding: 2vw 0;
       font-size: 3vw; } }
-
 body {
   margin: 0;
   padding: 0; }
+
+/*# sourceMappingURL=main.css.map */

@@ -59,6 +59,7 @@
     .header_row1 .row1_column1 img {
       height: 23vw;
       width: 23vw; }
+
   .row1_column2 {
     width: 70vw;
     margin: 0 2vw 0 0; }
@@ -75,3 +76,5 @@
         padding: 1vw 4vw 2vw 2vw; }
         .row1_column2 .search button .fa {
           font-size: 5vw; } }
+
+/*# sourceMappingURL=header_row1.css.map */

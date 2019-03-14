@@ -25,7 +25,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('.services').click(function(){
     $('html, body').animate({
-      scrollTop: $('#services').offset().top
+      scrollTop: $('#services').offset().middle
     }, 1000)
   })
 });

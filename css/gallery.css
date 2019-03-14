@@ -33,7 +33,7 @@
           display: inline-block; }
       #gallery .slider_gallery .slider_outer i {
         position: absolute;
-        font-size: 3.5vw;
+        font-size: 7.5vw;
         color: #fff;
         z-index: 100;
         cursor: pointer; }
@@ -53,3 +53,5 @@
   #gallery .slider_gallery .slider_outer #button_next {
     right: 8.5vw;
     top: 20vw; } }
+
+/*# sourceMappingURL=gallery.css.map */

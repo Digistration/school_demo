@@ -126,7 +126,6 @@
     .header_row2 ul .services:hover:before, .header_row2 ul .contact:hover:before {
       -webkit-transform: scaleY(1);
       transform: scaleY(1); } }
-
 @media only screen and (max-width: 500px) {
   .header_row2 nav ul {
     width: 100vw;
@@ -152,3 +151,5 @@
       border: none;
       color: #88c87b;
       background-color: #fff; } }
+
+/*# sourceMappingURL=header_row2.css.map */

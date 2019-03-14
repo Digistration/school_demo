@@ -85,6 +85,9 @@
         font-size: 2vw;
         letter-spacing: 0.07vw;
         cursor: pointer; }
+        #contact .container .form button textarea, #contact .container .form button input.text, #contact .container .form button input[type="text"], #contact .container .form button input[type="button"], #contact .container .form button input[type="submit"], #contact .container .form button .input-checkbox {
+          -webkit-appearance: none;
+          border-radius: 0; }
 
 @media only screen and (max-width: 500px) {
   #contact h2 {
@@ -116,10 +119,12 @@
       height: 5vw;
       font-size: 3vw; }
     #contact .container .form .form_message {
-      height: 15vw; }
+      height: 10vw; }
     #contact .container .form button {
       width: 12.5vw;
       right: 0;
-      top: 30.5vw;
+      top: 25vw;
       padding: 2vw 0;
       font-size: 3vw; } }
+
+/*# sourceMappingURL=contact.css.map */

@@ -121,6 +121,10 @@ $color-gray: #f2f3f4;
         font-size: 2vw;
         letter-spacing: 0.07vw;
         cursor: pointer;
+        textarea, input.text, input[type="text"], input[type="button"], input[type="submit"], .input-checkbox{
+          -webkit-appearance: none;
+          border-radius: 0;
+        }
       }
     }
   }
@@ -167,12 +171,12 @@ $color-gray: #f2f3f4;
           font-size: 3vw;
         }
         .form_message{
-          height: 15vw;
+          height: 10vw;
         }
         button{
           width: 12.5vw;
           right: 0;
-          top: 30.5vw;
+          top: 25vw;
           padding: 2vw 0;
           font-size: 3vw;
         }
